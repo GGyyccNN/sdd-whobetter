@@ -51,7 +51,7 @@ for i,s in enumerate(S):
     ax.plot([hi,hi],[i+.17,i+.27],color=MUTED,lw=1.2)
     ax.text(v+4,i-.035,f'≈ {v:.0f}k',fontsize=13,color=INK,weight='bold',va='center')
     ax.text(hi+3,i+.23,f'{lo:.0f}–{hi:.0f}k',fontsize=9,color=MUTED,va='center')
-ax2=fig.add_axes([.575,.24,.365,.52]);clean(ax2)
+ax2=fig.add_axes([.575,.24,.27,.52]);clean(ax2)
 ax2.set_ylim(-.65,4.65);ax2.invert_yaxis();ax2.set_xlim(0,100)
 ax2.set_yticks([]);ax2.set_xticks([0,25,50,75,100]);ax2.set_xticklabels(['0%','25%','50%','75%','100%']);ax2.set_xlabel('占该工具估算库存的比例',color=MUTED,labelpad=12)
 for i,s in enumerate(S):
@@ -65,13 +65,14 @@ for i,s in enumerate(S):
         ax2.barh(i,w,left=left,height=.42,color=color,edgecolor='#F7F8FC',linewidth=1)
         if w>=6.3: ax2.text(left+w/2,i,f'{w:.0f}%',ha='center',va='center',fontsize=10,color='white' if color!='#E8AD43' else '#3E341F',weight='bold')
         left+=w
-fig.legend([Patch(facecolor=c) for c in COLORS],C,loc='lower center',bbox_to_anchor=(.54,.12),ncol=7,frameon=False,fontsize=10,handlelength=1.2,columnspacing=1.45)
+ax2.legend([Patch(facecolor=c) for c in COLORS],C,loc='center left',bbox_to_anchor=(1.03,.5),ncol=1,frameon=False,fontsize=11,handlelength=1.1,handletextpad=.6,labelspacing=.9,borderaxespad=0)
 txt(fig,.045,.053,'口径：单套规范来源；含模板与按需参考；排除多平台重复副本、代码、README、项目产物。范围为字符换算的启发式区间，非置信区间。',9,color=MUTED)
 txt(fig,.045,.026,'ASCII 字符约 3–5 字符/token，中心按 4；非 ASCII 单列估算。未用 DeepSeek v4.1 tokenizer 校准，不代表单次加载量、累计计费或质量排名。',9,color=MUTED)
 txt(fig,.95,.895,'快照 2026-10-10',10,color=MUTED,ha='right')
-save(fig,'01_overview_v2')
-for ext in ['png','svg','pdf']:
-    (OUT/f'01_overview.{ext}').write_bytes((OUT/f'01_overview_v2.{ext}').read_bytes())
+save(fig,'01_overview_v3')
+for legacy in ['01_overview','01_overview_v2']:
+    for ext in ['png','svg','pdf']:
+        (OUT/f'{legacy}.{ext}').write_bytes((OUT/f'01_overview_v3.{ext}').read_bytes())
 
 # Slide 2: category values, exact character sizes, source counts and scope.
 fig=plt.figure(figsize=(17,11))
@@ -156,7 +157,7 @@ for repo,m in DATA['sources'].items():
     report.append(f"| {m['name']} | {m['declared_version']} | [{m['commit'][:12]}]({m['repository_url']}/tree/{m['commit']}) | {m['commit_date']} |")
 report += ['\nKiro 可观测性证据：[官方 README 的 About this repository]('+DATA['sources']['kiro-public']['repository_url']+'/blob/'+DATA['sources']['kiro-public']['commit']+'/README.md)。官方站点 `kiro.dev` 和 `api-docs.deepseek.com` 在当前环境的请求返回代理 403，本轮未以这些页面作正文计量来源；这不影响已取得的源码盘点。',
     '\n## 文件说明\n',
-    '- `01_overview_v2.png / .svg / .pdf`：总量和功能占比，适合投屏。',
+    '- `01_overview_v3.png / .svg / .pdf`：总量和功能占比，适合投屏。',
     '- `02_detail.png / .svg / .pdf`：分类总量、占比、字符数、来源与范围。',
     '- `comparison.html`：无需服务器的离线浏览页，含两张图及可筛选文件/字段明细；来源链接指向固定提交。',
     '- `prompt_inventory.csv`：逐文件/字段的字符、字节、估算区间、分类、SHA256、路径与来源链接。',
@@ -170,7 +171,7 @@ report += ['\nKiro 可观测性证据：[官方 README 的 About this repository
 
 # Standalone interactive evidence page with no external dependencies.
 inventory=json.dumps(R,ensure_ascii=False).replace('</','<\\/')
-imgs={n:base64.b64encode((OUT/f'{n}.png').read_bytes()).decode() for n in ['01_overview_v2','02_detail']}
+imgs={n:base64.b64encode((OUT/f'{n}.png').read_bytes()).decode() for n in ['01_overview_v3','02_detail']}
 page=r'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SDD 静态提示词对比</title>
 <style>:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#20304a;font:15px/1.65 system-ui,"Noto Sans CJK SC",sans-serif}main{max-width:1400px;margin:auto;padding:26px}h1{font-size:29px;margin:0}h2{font-size:21px;margin-top:34px}.muted{color:#657287}a{color:#2861a3}nav{display:flex;gap:20px;position:sticky;top:0;background:#f5f7fb;padding:12px 0;z-index:2}figure{margin:18px 0;background:white;border:1px solid #dce3ee;border-radius:12px;overflow:hidden}img{width:100%;display:block}.card{padding:16px 20px;background:white;border:1px solid #dce3ee;border-radius:10px}.filters{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}select,input{border:1px solid #bdc9dc;background:white;border-radius:7px;padding:10px;font:inherit}input{min-width:300px;flex:1}.scroll{overflow:auto;border:1px solid #dce3ee;background:white;border-radius:8px;max-height:680px}table{border-collapse:collapse;width:100%;font-size:13px}th{position:sticky;top:0;background:#243650;color:white;text-align:left}th,td{padding:9px 12px;border-bottom:1px solid #e5eaf2}td.num{white-space:nowrap;text-align:right}td.path{max-width:500px;overflow-wrap:anywhere}tr:hover{background:#f0f4fa}button{cursor:pointer;border:1px solid #aebed5;background:#e7eef8;padding:10px 16px;border-radius:7px;font:inherit}details{margin-top:18px}footer{padding:32px 0;color:#657287}.badge{padding:3px 7px;border-radius:5px;background:#e9eef7;white-space:nowrap}@media print{nav,.filters,button{display:none}.scroll{max-height:none}}</style>
 <main><h1>SDD 工具：静态提示词库存对比</h1><p class="muted">固定官方源码快照 · 2026-10-10 · 仅静态盘点，不运行项目、模型或 tokenizer</p>
@@ -185,7 +186,7 @@ page=r'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="vie
 <footer>两张图及 CSV / PDF / SVG 均在同一成果包中。报告 README.md 包含统计口径和来源说明；源文本与脚本已留存以便复核。</footer></main>
 <script>const data=DATA;const $=id=>document.getElementById(id);const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));for(const t of [...new Set(data.map(r=>r.tool))]){$('tool').append(new Option(t,t))}for(const c of [...new Set(data.map(r=>r.category))]){$('category').append(new Option(c,c))}let shown=[];function render(){const q=$('query').value.toLowerCase();shown=data.filter(r=>(!$('tool').value||r.tool===$('tool').value)&&(!$('category').value||r.category===$('category').value)&&(!q||[r.path,r.locator,r.module,r.kind].join(' ').toLowerCase().includes(q)));shown.sort($('sort').value==='tokens'?(a,b)=>b.estimated_tokens-a.estimated_tokens:(a,b)=>(a.tool+a.path+a.locator).localeCompare(b.tool+b.path+b.locator));$('rows').innerHTML=shown.map(r=>`<tr><td><b>${esc(r.tool)}</b><br>${esc(r.module)}</td><td><span class="badge">${esc(r.category)}</span><br>${esc(r.kind)}</td><td class="path"><a target="_blank" rel="noreferrer" href="${esc(r.source_url)}">${esc(r.path)}</a>${r.locator?'<br><code>'+esc(r.locator)+'</code>':''}${r.duplicate_of?'<br><small class="muted">有全文相同片段，原始库存保留</small>':''}</td><td class="num">${r.chars.toLocaleString()}</td><td class="num">≈${Math.round(r.estimated_tokens).toLocaleString()}</td><td class="num">${Math.round(r.low_tokens).toLocaleString()}–${Math.round(r.high_tokens).toLocaleString()}</td></tr>`).join('');const sum=shown.reduce((t,r)=>t+r.estimated_tokens,0),chars=shown.reduce((t,r)=>t+r.chars,0),files=new Set(shown.map(r=>r.tool+'|'+r.path)).size;$('stats').textContent=`${shown.length} 个文本片段 · ${files} 个来源文件 · ${chars.toLocaleString()} 字符 · 约 ${(sum/1000).toFixed(1)}k token（中心估算）`;}for(const id of ['tool','category','sort','query'])$(id).addEventListener(id==='query'?'input':'change',render);$('download').onclick=()=>{const keys=['tool','module','category','kind','path','locator','chars','estimated_tokens','low_tokens','high_tokens','source_url'];const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';const text='\uFEFF'+[keys.map(quote).join(','),...shown.map(r=>keys.map(k=>quote(r[k])).join(','))].join('\r\n');const u=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='sdd-filtered-inventory.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};render();</script></html>'''
 sources='<ul>'+''.join(f"<li>{html.escape(m['name'])} · {html.escape(m['declared_version'])} · <a href='{m['repository_url']}/tree/{m['commit']}'>{m['commit'][:12]}</a></li>" for m in DATA['sources'].values())+'</ul>'
-page=page.replace('OVERVIEW',imgs['01_overview_v2']).replace('DETAIL',imgs['02_detail']).replace('SOURCES',sources).replace('const data=DATA;','const data='+inventory+';')
+page=page.replace('OVERVIEW',imgs['01_overview_v3']).replace('DETAIL',imgs['02_detail']).replace('SOURCES',sources).replace('const data=DATA;','const data='+inventory+';')
 (OUT/'comparison.html').write_text(page,encoding='utf-8')
 
 # Self-contained deliverable: fixed canonical text corpus + scripts + charts/data.

@@ -56,7 +56,7 @@ Kiro 可观测性证据：[官方 README 的 About this repository](https://gith
 
 ## 文件说明
 
-- `01_overview_v2.png / .svg / .pdf`：总量和功能占比，适合投屏。
+- `01_overview_v3.png / .svg / .pdf`：总量和功能占比，适合投屏。
 - `02_detail.png / .svg / .pdf`：分类总量、占比、字符数、来源与范围。
 - `comparison.html`：无需服务器的离线浏览页，含两张图及可筛选文件/字段明细；来源链接指向固定提交。
 - `prompt_inventory.csv`：逐文件/字段的字符、字节、估算区间、分类、SHA256、路径与来源链接。
