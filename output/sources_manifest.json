@@ -1,0 +1,47 @@
+{
+  "openspec": {
+    "name": "OpenSpec",
+    "repository_url": "https://github.com/Fission-AI/OpenSpec",
+    "commit": "9111a7654d7800391459431fff4eaf66e33a3d2e",
+    "commit_date": "2026-10-06",
+    "branch": "main",
+    "declared_version": "1.14.1",
+    "collected_date": "2026-10-10"
+  },
+  "spec-kit": {
+    "name": "Spec Kit",
+    "repository_url": "https://github.com/github/spec-kit",
+    "commit": "0443760542e7e5269724744a2ac55c4bd386d095",
+    "commit_date": "2026-10-09",
+    "branch": "main",
+    "declared_version": "1.1.4.dev0",
+    "collected_date": "2026-10-10"
+  },
+  "bmad": {
+    "name": "BMAD Method",
+    "repository_url": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "bda3c5929f672019b90f39a3ea27259d35d00974",
+    "commit_date": "2026-10-06",
+    "branch": "main",
+    "declared_version": "6.13.0-next",
+    "collected_date": "2026-10-10"
+  },
+  "superpowers": {
+    "name": "Superpowers",
+    "repository_url": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "commit_date": "2026-10-09",
+    "branch": "main",
+    "declared_version": "7.0.0",
+    "collected_date": "2026-10-10"
+  },
+  "kiro-public": {
+    "name": "Kiro Specs",
+    "repository_url": "https://github.com/kirodotdev/Kiro",
+    "commit": "bfe7ff30d9b21e583566c844d75e3dd2b572e2c7",
+    "commit_date": "2026-08-27",
+    "branch": "main",
+    "declared_version": "产品版本未统计；公开反馈仓库快照",
+    "collected_date": "2026-10-10"
+  }
+}

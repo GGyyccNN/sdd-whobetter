@@ -1,0 +1,1536 @@
+﻿tool,path,reason
+OpenSpec,.agents/skills/draft-openspec-docs/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/release-openspec/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/release-openspec/agents/openai.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/release-openspec/references/release-notes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/verify-openspec-docs/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/write-openspec-docs/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/write-openspec-docs/full-process.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.agents/skills/write-openspec-docs/writing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.changeset/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.changeset/config.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.coderabbit.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.devcontainer/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.devcontainer/devcontainer.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/ISSUE_TEMPLATE/bug_report.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/ISSUE_TEMPLATE/config.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/ISSUE_TEMPLATE/feature_request.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/PULL_REQUEST_TEMPLATE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/dependabot.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/workflows/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/workflows/ci.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/workflows/release-prepare.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,.github/workflows/security.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,CHANGELOG.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,CONTRIBUTING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,MAINTAINERS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,README_OLD.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,SECURITY.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/agent-contract.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/cli.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/community.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/concepts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/customization.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/editing-changes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/examples.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/existing-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/explore.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/getting-started.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/glossary.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/how-commands-work.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/installation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/migration-guide.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/multi-language.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/opsx.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/overview.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/reviewing-changes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/stores-beta/user-guide.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/supported-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/team-workflow.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/troubleshooting.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/workflows.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs/writing-specs.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/Notes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/customize/overview.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/customize/profiles.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/customize/project-config.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/customize/schemas.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/customize/skills.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/apply.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/change-course.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/concepts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/examples.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/existing-codebases.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/explore.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/review-the-plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/guides/teams.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/help/faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/help/legacy/migration.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/help/troubleshooting.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/message-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/multi-repo/stores.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/multi-repo/worksets.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/architecture/design-decisions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/architecture/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/architecture/workflow-runs.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/cli.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/change-metadata.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/config-json.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/config-yaml.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/environment-variables.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/configuration/stores.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/glossary.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/schemas/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/schemas/schema-yaml.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/schemas/spec-driven/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/skills.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/reference/supported-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/sources.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/start/installation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/start/overview.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/start/quickstart.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,docs-lab/start/setup.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,install.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/IMPLEMENTATION_ORDER.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-amp-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-amp-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-amp-support/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-amp-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/specs/change-creation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/specs/change-stacking-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/specs/cli-change/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-change-stacking-awareness/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-devin-desktop-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/cli-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/global-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/specs/installation-scope/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-global-install-scope/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-init-agents-target/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-init-agents-target/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-init-agents-target/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-init-agents-target/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-init-agents-target/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-qa-smoke-harness/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-qa-smoke-harness/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-qa-smoke-harness/specs/developer-qa-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-skill-cli-auto-approval/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-skill-cli-auto-approval/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-skill-cli-auto-approval/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-skill-cli-auto-approval/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-status-next-step/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-status-next-step/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-status-next-step/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-status-next-step/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-tool-command-surface-capabilities/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-tool-command-surface-capabilities/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-tool-command-surface-capabilities/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-tool-command-surface-capabilities/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-tool-command-surface-capabilities/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-update-workflow/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-update-workflow/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-update-workflow/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-update-workflow/specs/opsx-update-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-update-workflow/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-validation-findings-report/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-validation-findings-report/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-validation-findings-report/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-validation-findings-report/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-validation-findings-report/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-version-command/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-version-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-version-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-version-command/specs/cli-version/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/add-version-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-11-add-update-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-11-add-update-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-11-add-update-command/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-11-add-update-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-13-add-list-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-13-add-list-command/specs/cli-list/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-01-13-add-list-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-05-initialize-typescript-project/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-05-initialize-typescript-project/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-05-initialize-typescript-project/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-add-init-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-add-init-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-add-init-command/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-add-init-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-adopt-future-state-storage/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-adopt-future-state-storage/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-06-adopt-future-state-storage/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-11-add-complexity-guidelines/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-11-add-complexity-guidelines/specs/openspec-docs/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-11-add-complexity-guidelines/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-archive-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-archive-command/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-archive-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-diff-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-diff-command/specs/cli-diff/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-13-add-diff-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-change-commands/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-change-commands/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-change-commands/specs/cli-change/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-change-commands/specs/cli-list/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-change-commands/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-interactive-show-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-interactive-show-command/specs/cli-change/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-interactive-show-command/specs/cli-show/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-interactive-show-command/specs/cli-spec/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-interactive-show-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-skip-specs-archive-option/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-skip-specs-archive-option/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-skip-specs-archive-option/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-spec-commands/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-spec-commands/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-spec-commands/specs/cli-spec/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-spec-commands/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-zod-validation/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-zod-validation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-zod-validation/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-zod-validation/specs/cli-diff/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-add-zod-validation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-delta-based-changes/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-delta-based-changes/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-delta-based-changes/specs/cli-diff/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-delta-based-changes/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-delta-based-changes/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-verb-noun-cli-structure/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-verb-noun-cli-structure/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-verb-noun-cli-structure/specs/cli-list/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-verb-noun-cli-structure/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-adopt-verb-noun-cli-structure/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-bulk-validation-interactive-selection/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-bulk-validation-interactive-selection/specs/cli-change/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-bulk-validation-interactive-selection/specs/cli-spec/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-bulk-validation-interactive-selection/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-bulk-validation-interactive-selection/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-fix-update-tool-selection/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-fix-update-tool-selection/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-fix-update-tool-selection/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-improve-validate-error-messages/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-improve-validate-error-messages/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-improve-validate-error-messages/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-structured-spec-format/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-structured-spec-format/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-08-19-structured-spec-format/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-12-add-view-dashboard-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-12-add-view-dashboard-command/specs/cli-view/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-12-add-view-dashboard-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-agents-md-config/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-agents-md-config/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-agents-md-config/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-agents-md-config/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-multi-agent-init/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-multi-agent-init/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-multi-agent-init/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-slash-command-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-slash-command-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-slash-command-support/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-add-slash-command-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-cli-e2e-plan/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-cli-e2e-plan/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-deterministic-tests/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-deterministic-tests/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-init-onboarding/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-init-onboarding/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-improve-init-onboarding/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-remove-diff-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-remove-diff-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-sort-active-changes-by-progress/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-sort-active-changes-by-progress/specs/cli-view/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-sort-active-changes-by-progress/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-file-name/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-file-name/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-file-name/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-file-name/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-file-name/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-instructions/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-instructions/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-agent-instructions/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-markdown-parser-crlf/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-markdown-parser-crlf/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-09-29-update-markdown-parser-crlf/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-codex-slash-command-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-codex-slash-command-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-codex-slash-command-support/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-codex-slash-command-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-github-copilot-prompts/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-github-copilot-prompts/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-github-copilot-prompts/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-github-copilot-prompts/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-kilocode-workflows/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-kilocode-workflows/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-kilocode-workflows/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-kilocode-workflows/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-non-interactive-init-options/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-non-interactive-init-options/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-non-interactive-init-options/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-windsurf-workflows/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-windsurf-workflows/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-windsurf-workflows/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-add-windsurf-workflows/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-enhance-validation-error-messages/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-enhance-validation-error-messages/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-enhance-validation-error-messages/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-improve-agent-instruction-usability/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-improve-agent-instruction-usability/specs/docs-agent-instructions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-improve-agent-instruction-usability/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-slim-root-agents-file/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-slim-root-agents-file/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-enter-selection/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-enter-selection/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-enter-selection/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-root-agents/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-root-agents/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-root-agents/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-cli-init-root-agents/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-release-automation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-14-update-release-automation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-archive-command-arguments/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-archive-command-arguments/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-archive-command-arguments/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-cline-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-cline-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-cline-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-crush-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-crush-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-crush-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-factory-slash-commands/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-factory-slash-commands/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-factory-slash-commands/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-10-22-add-factory-slash-commands/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-11-06-add-shell-completions/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-11-06-add-shell-completions/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-11-06-add-shell-completions/specs/cli-completion/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-11-06-add-shell-completions/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-20-add-global-config-dir/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-20-add-global-config-dir/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-20-add-global-config-dir/specs/global-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-20-add-global-config-dir/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-21-add-config-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-21-add-config-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-21-add-config-command/specs/cli-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-21-add-config-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-23-extend-shell-completions/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-23-extend-shell-completions/specs/cli-completion/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-23-extend-shell-completions/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-24-add-artifact-graph-core/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-24-add-artifact-graph-core/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-24-add-artifact-graph-core/specs/artifact-graph/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-24-add-artifact-graph-core/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-25-add-change-manager/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-25-add-change-manager/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-25-add-change-manager/specs/change-creation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-25-add-change-manager/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-artifact-workflow-cli/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-artifact-workflow-cli/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-artifact-workflow-cli/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-artifact-workflow-cli/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-instruction-loader/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-instruction-loader/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-instruction-loader/specs/instruction-loader/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-add-instruction-loader/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-restructure-schema-directories/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-restructure-schema-directories/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-restructure-schema-directories/specs/artifact-graph/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-28-restructure-schema-directories/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-29-unify-change-state-model/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-29-unify-change-state-model/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-29-unify-change-state-model/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-29-unify-change-state-model/specs/cli-view/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-29-unify-change-state-model/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-add-antigravity-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-add-antigravity-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-add-antigravity-support/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-add-antigravity-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-fix-cline-workflows-implementation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-fix-cline-workflows-implementation/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-fix-cline-workflows-implementation/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2025-12-30-fix-cline-workflows-implementation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-agent-schema-selection/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-agent-schema-selection/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-per-change-schema-metadata/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-per-change-schema-metadata/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-per-change-schema-metadata/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-per-change-schema-metadata/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-specs-apply-command/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-specs-apply-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-specs-apply-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-specs-apply-command/specs/specs-sync-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-add-specs-apply-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-make-apply-instructions-schema-aware/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-make-apply-instructions-schema-aware/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-make-apply-instructions-schema-aware/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-opsx-archive-command/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-opsx-archive-command/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-opsx-archive-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-opsx-archive-command/specs/opsx-archive-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-06-opsx-archive-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-07-add-nix-flake-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-07-add-nix-flake-support/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-07-add-nix-flake-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-07-add-nix-flake-support/specs/nix-flake-support/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-07-add-nix-flake-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-flake-update-script/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-flake-update-script/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-flake-update-script/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-flake-update-script/specs/flake-update-script/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-flake-update-script/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/specs/global-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/specs/telemetry/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-add-posthog-analytics/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-fix-codebuddy-frontmatter-fields/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-fix-codebuddy-frontmatter-fields/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-fix-codebuddy-frontmatter-fields/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-09-fix-codebuddy-frontmatter-fields/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-15-add-nix-ci-validation/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-15-add-nix-ci-validation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-15-add-nix-ci-validation/specs/ci-nix-validation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-15-add-nix-ci-validation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/specs/no-changes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-01-30-opencode-command-references/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-feedback-command/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-feedback-command/specs/cli-feedback/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-feedback-command/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-opsx-onboard-skill/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-opsx-onboard-skill/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-opsx-onboard-skill/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-opsx-onboard-skill/specs/opsx-onboard-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-opsx-onboard-skill/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-verify-skill/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-verify-skill/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-verify-skill/specs/opsx-verify-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-add-verify-skill/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/specs/legacy-cleanup/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-merge-init-experimental/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-multi-provider-skill-generation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/specs/config-loading/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/specs/context-injection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/specs/rules-injection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/specs/schema-resolution/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-config/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-local-schemas/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-local-schemas/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-local-schemas/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-local-schemas/specs/schema-resolution/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-project-local-schemas/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/specs/schema-fork-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/specs/schema-init-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/specs/schema-validate-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/specs/schema-which-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-02-17-schema-management-cli/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-04-23-add-kimi-cli-skills-only-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-04-workspace-foundation/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-04-workspace-foundation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-04-workspace-foundation/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-04-workspace-foundation/specs/workspace-foundation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-04-workspace-foundation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/specs/workspace-foundation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/specs/workspace-links/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-create-and-register-repos/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-open-agent-context/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-open-agent-context/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-open-agent-context/specs/workspace-foundation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-open-agent-context/specs/workspace-open/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-06-workspace-open-agent-context/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/artifact-graph/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/change-creation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/cli-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/schema-resolution/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/workspace-change-planning/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/specs/workspace-links/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-05-14-workspace-change-planning/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-11-add-grok-build-skills-only-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-28-fix-schema-init-force-validation-order/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-28-fix-schema-init-force-validation-order/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-28-fix-schema-init-force-validation-order/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-28-fix-schema-init-force-validation-order/specs/schema-init-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-07-28-fix-schema-init-force-validation-order/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-08-15-add-dsh-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-08-15-add-dsh-support/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-08-15-add-dsh-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-08-15-add-dsh-support/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/archive/2026-08-15-add-dsh-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/cli-archive-instructions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/config-loading/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/context-injection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/operation-guidance/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/opsx-apply-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/opsx-archive-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/opsx-bulk-archive-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/specs/specs-sync-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/extend-config-injection-to-apply-archive/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/specs/oh-my-pi-tool/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/feat-add-omp-tool-support/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-archive-retirement-guidance/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-archive-retirement-guidance/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-archive-retirement-guidance/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-archive-retirement-guidance/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/specs/change-creation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-cli-local-date-semantics/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-opencode-commands-directory/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-opencode-commands-directory/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-opencode-commands-directory/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-opencode-commands-directory/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-opencode-commands-directory/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-schemas-root-selection/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-schemas-root-selection/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-schemas-root-selection/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-schemas-root-selection/specs/schema-resolution/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-schemas-root-selection/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-spec-parser-fidelity/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-spec-parser-fidelity/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-spec-parser-fidelity/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-spec-parser-fidelity/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-spec-parser-fidelity/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/specs/cli-view/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-validate-view-resolution-parity/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-windows-archive-claim-release/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-windows-archive-claim-release/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-windows-archive-claim-release/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/fix-windows-archive-claim-release/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/graceful-status-no-changes/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/graceful-status-no-changes/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/graceful-status-no-changes/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/graceful-status-no-changes/specs/graceful-status-empty/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/graceful-status-no-changes/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/make-codex-skills-only/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/rename-bob-to-ibm-bob/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/rename-bob-to-ibm-bob/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/rename-bob-to-ibm-bob/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/rename-bob-to-ibm-bob/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/schema-alias-support/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/schema-alias-support/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/specs/profiles/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/specs/propose-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/simplify-skill-installation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/spec-diffs/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/spec-diffs/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/spec-diffs/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/spec-diffs/specs/cli-show/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/spec-diffs/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/suppress-telemetry-notice-in-json/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/suppress-telemetry-notice-in-json/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/suppress-telemetry-notice-in-json/specs/telemetry/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/suppress-telemetry-notice-in-json/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/unify-template-generation-pipeline/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/unify-template-generation-pipeline/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/unify-template-generation-pipeline/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/unify-template-generation-pipeline/specs/template-artifact-pipeline/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/unify-template-generation-pipeline/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/warn-on-purpose-placeholder/.openspec.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/warn-on-purpose-placeholder/design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/warn-on-purpose-placeholder/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/warn-on-purpose-placeholder/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/changes/warn-on-purpose-placeholder/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/config.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/explorations/explore-workflow-ux.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/explorations/workspace-architecture.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/explorations/workspace-roadmap.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/explorations/workspace-user-journeys.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/explorations/workspace-ux-simplification.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/.initiative.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/decisions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/direction-git-native-work.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/direction.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/questions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/roadmap.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/01-lock-the-direction/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/01-lock-the-direction/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/01-lock-the-direction/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/02-stabilize-workspace-as-local-view/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/02-stabilize-workspace-as-local-view/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/02-stabilize-workspace-as-local-view/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/03-add-context-store-foundation/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/03-add-context-store-foundation/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/03-add-context-store-foundation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/04-add-collection-foundation/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/04-add-collection-foundation/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/04-add-collection-foundation/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/05-ship-initiative-mvp/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/05-ship-initiative-mvp/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/05-ship-initiative-mvp/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/06-add-minimal-context-store-ux/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/06-add-minimal-context-store-ux/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/06-add-minimal-context-store-ux/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/07-add-agent-first-initiative-discovery/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/07-add-agent-first-initiative-discovery/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/07-add-agent-first-initiative-discovery/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/08-connect-repo-local-changes-to-initiatives/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/08-connect-repo-local-changes-to-initiatives/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/08-connect-repo-local-changes-to-initiatives/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/09-add-initiative-resolve/decision-review.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/09-add-initiative-resolve/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/09-add-initiative-resolve/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/09-add-initiative-resolve/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/10-let-workspaces-open-initiatives/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/10-let-workspaces-open-initiatives/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/11-manual-beta-reality-pass/notes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/11-manual-beta-reality-pass/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/11-manual-beta-reality-pass/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/12-context-store-first-run-and-cleanup-ux/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/12-context-store-first-run-and-cleanup-ux/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/12-context-store-first-run-and-cleanup-ux/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/13-agent-handoff-output-and-delivery-polish/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/13-agent-handoff-output-and-delivery-polish/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/13-agent-handoff-output-and-delivery-polish/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/14-workspaces-beta-guide-split/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/14-workspaces-beta-guide-split/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/15-context-store-project-roots-and-schema-led-initiatives/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/15-context-store-project-roots-and-schema-led-initiatives/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/15-context-store-project-roots-and-schema-led-initiatives/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/16-add-escalation-ux/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/16-add-escalation-ux/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/17-harden-team-shared-coordination/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/17-harden-team-shared-coordination/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/18-explore-initiative-hosted-target-bound-change-artifacts/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/18-explore-initiative-hosted-target-bound-change-artifacts/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/18-explore-initiative-hosted-target-bound-change-artifacts/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/19-review-workspace-beta-compatibility-before-public-release/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/19-review-workspace-beta-compatibility-before-public-release/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/proposed-initiative-next-agent-handoff-ux/evidence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/proposed-initiative-next-agent-handoff-ux/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/initiatives/context-store-and-initiatives/work-items/proposed-initiative-next-agent-handoff-ux/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/ai-tool-paths/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/artifact-graph/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/change-creation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/ci-nix-validation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-archive/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-artifact-workflow/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-change/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-completion/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-feedback/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-init/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-list/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-show/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-spec/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-update/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-validate/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/cli-view/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/command-generation/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/config-loading/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/context-injection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/docs-agent-instructions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/global-config/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/instruction-loader/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/legacy-cleanup/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/openspec-conventions/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/opsx-archive-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/opsx-onboard-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/opsx-verify-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/rules-injection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/schema-fork-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/schema-init-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/schema-resolution/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/schema-validate-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/schema-which-command/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/specs-sync-skill/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/specs/telemetry/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/capstone/gauntlet.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/capstone/journeys.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/capstone/release-readiness.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/capstone/technical-audits.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/capstone/usability-audits.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/goal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/roadmap.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/runbook.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/assemble-working-context/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/assemble-working-context/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/declared-store-fallback/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/declared-store-fallback/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/delete-legacy-command-groups/deletion-ledger.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/delete-legacy-command-groups/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/delete-legacy-command-groups/remainder.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/delete-legacy-command-groups/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/personal-worksets/capstone-dogfood.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/personal-worksets/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/personal-worksets/research.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/personal-worksets/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/relationship-health/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/relationship-health/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-canonical-remote/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-canonical-remote/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-lifecycle-proof/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-lifecycle-proof/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-references/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-references/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-rename-and-guidance/dogfood-transcript.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-rename-and-guidance/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-rename-and-guidance/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-root-parity/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-root-parity/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-root-selection/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/slices/store-root-selection/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec/work/simplify-context-and-workspace-model/workset-direction.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,openspec-parallel-merge-plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,package.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,pnpm-lock.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,pnpm-workspace.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,scripts/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,skills/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,test/AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,test/fixtures/tmp-init/openspec/changes/c1/proposal.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,test/fixtures/tmp-init/openspec/changes/c1/specs/alpha/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,test/fixtures/tmp-init/openspec/specs/alpha/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,tsconfig.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,website/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,website/package.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,website/pnpm-lock.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,website/pnpm-workspace.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+OpenSpec,website/tsconfig.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.devcontainer/devcontainer.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/agent_request.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/bug_report.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/bundle_submission.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/config.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/extension_submission.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/feature_request.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/preset_submission.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/ISSUE_TEMPLATE/workflow_step_submission.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/PULL_REQUEST_TEMPLATE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/aw/actions-lock.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/dependabot.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/security-audit-requirements.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/skills/add-community-extension/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/skills/code-review/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/RELEASE-PROCESS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-bundle.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-bundle.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-extension.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-extension.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-preset.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-preset.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-workflow-step.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/add-community-workflow-step.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-assess.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-assess.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-fix.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-fix.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-test.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/bug-test.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/catalog-assign.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/codeql.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/docs.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/extension-version-guard.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/feature-assess.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/feature-assess.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/lint.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/pr-assess.lock.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/pr-assess.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/publish-pypi.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/release-trigger.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/release.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/security.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/stale.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.github/workflows/test.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.pre-commit-config.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.specify/memory/constitution.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,.zenodo.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,CHANGELOG.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,CODE_OF_CONDUCT.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,CONTRIBUTING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,DEVELOPMENT.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,README.ja.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,README.zh-CN.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,SECURITY.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,SUPPORT.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/assess/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/assess/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/bugfix/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/bugfix/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,bundles/catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,design/cli.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,design/integration.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,design/mcp.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,design/shared.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,design/workflow-step.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/bundles.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/extensions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/friends.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/overview.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/presets.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/walkthroughs.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/community/workflow-steps.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/concepts/complex-features.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/concepts/sdd.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/concepts/spec-of-specs.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/concepts/spec-persistence.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/docfx.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/agentic-sdlc.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/assessment.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/bugfix.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/contract-driven-development.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/customization.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/evolving-specs.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/existing-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/guides/monorepo.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/history.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/install/air-gapped.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/install/one-time.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/install/pipx.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/install/pypi.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/install/uv.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/installation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/local-development.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/quickstart.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/agentic-assessment.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/agentic-bugfix.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/agentic-sdd.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/artifacts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/authentication.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/bundles.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/core.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/extensions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/integrations.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/mcp.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/overview.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/presets.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/reference/workflows.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/toc.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,docs/upgrade.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/business-analyst/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/business-analyst/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/developer/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/developer/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/product-manager/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/product-manager/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/security-researcher/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,examples/bundles/security-researcher/bundle.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/EXTENSION-API-REFERENCE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/EXTENSION-DEVELOPMENT-GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/EXTENSION-PUBLISHING-GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/EXTENSION-USER-GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/RFC-EXTENSION-SYSTEM.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/agent-context/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/agent-context/agent-context-config.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/agent-context/agent-context-defaults.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/agent-context/commands/speckit.agent-context.update.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/agent-context/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/commands/speckit.assess.decide.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/commands/speckit.assess.define.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/commands/speckit.assess.intake.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/commands/speckit.assess.research.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/commands/speckit.assess.shape.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/assess/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/bug/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/bug/commands/speckit.bug.assess.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/bug/commands/speckit.bug.fix.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/bug/commands/speckit.bug.test.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/bug/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/commands/speckit.git.commit.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/commands/speckit.git.feature.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/commands/speckit.git.initialize.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/commands/speckit.git.remote.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/commands/speckit.git.validate.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/config-template.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/git/git-config.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/github/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/github/commands/speckit.github.taskstoissues.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/github/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/selftest/commands/selftest.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/selftest/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/CHANGELOG.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/EXAMPLE-README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/commands/example.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/config-template.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,extensions/template/extension.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,integrations/CONTRIBUTING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,integrations/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,integrations/catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,integrations/catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-April.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-August.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-February.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-July.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-June.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-March.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-May.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,newsletters/2026-September.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/ARCHITECTURE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/PUBLISHING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/constitution-sync/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/constitution-sync/commands/speckit.constitution.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/constitution-sync/preset.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/commands/speckit.constitution.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/commands/speckit.implement.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/commands/speckit.plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/commands/speckit.specify.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/commands/speckit.tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/lean/preset.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/commands/speckit.myext.myextcmd.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/commands/speckit.specify.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/preset.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/templates/myext-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/scaffold/templates/spec-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/commands/speckit.specify.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/commands/speckit.wrap-test.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/preset.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/templates/checklist-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/templates/constitution-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/templates/plan-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/templates/spec-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,presets/self-test/templates/tasks-template.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,pyproject.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,spec-driven.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,templates/vscode-settings.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,tests/hooks/.specify/extensions.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,tests/hooks/TESTING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,tests/hooks/plan.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,tests/hooks/spec.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,tests/hooks/tasks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/ARCHITECTURE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/PUBLISHING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/assess/workflow.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/bugfix/workflow.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/speckit/workflow.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/step-catalog.community.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Spec Kit,workflows/step-catalog.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.coderabbit.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/CODE_OF_CONDUCT.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/FUNDING.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/ISSUE_TEMPLATE/bug-report.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/ISSUE_TEMPLATE/config.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/ISSUE_TEMPLATE/documentation.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/ISSUE_TEMPLATE/feature-request.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/ISSUE_TEMPLATE/issue.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/PULL_REQUEST_TEMPLATE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/workflows/coderabbit-review.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/workflows/discord.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/workflows/docs.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/workflows/quality.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.github/workflows/retarget-pr.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.pre-commit-config.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,.yamllint.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,CHANGELOG.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,CONTRIBUTING.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,CONTRIBUTORS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,README_CN.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,README_KR.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,README_VN.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,SECURITY.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,TRADEMARK.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,action.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/autonomous-development-loops.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/build-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/finish-an-epic.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/review-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/test-completed-work.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/build/walk-through-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/advanced-elicitation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/analysis-phase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/build.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/established-projects-faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/party-mode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/preventing-agent-conflicts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/explanation/why-solutioning-matters.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/established-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/quick-fixes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/how-to/upgrade-to-v6.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/core-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/testing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/reference/workflow-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/cs/tutorials/getting-started.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/customize/add-modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/customize/adopt-bmad-across-a-team.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/customize/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/customize/run-multi-agent-discussions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/existing-codebases/getting-deeper.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/existing-codebases/set-and-maintain-project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/existing-codebases/start-in-an-existing-codebase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/existing-codebases/theory-of-project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/build/walk-through-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/advanced-elicitation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/analysis-phase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/build.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/established-projects-faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/named-agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/party-mode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/preventing-agent-conflicts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/explanation/why-solutioning-matters.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/established-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/expand-bmad-for-your-org.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/install-custom-modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/quick-fixes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/how-to/upgrade-to-v6.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/core-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/testing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/reference/workflow-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/fr/tutorials/getting-started.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/build/build-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/build/test-completed-work.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/build/walk-through-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/advanced-elicitation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/analysis-phase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/deep-recon.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/established-projects-faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/forge-idea.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/named-agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/party-mode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/preventing-agent-conflicts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/project-context-theory.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/retrospective.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/explanation/why-solutioning-matters.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/choose-a-development-path.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/established-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/expand-bmad-for-your-org.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/install-custom-modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/pressure-test-an-idea.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/how-to/upgrade-to-v6.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/build-auto.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/core-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/reference/workflow-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/start/build-your-first-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/start/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/ko-kr/tutorials/getting-deeper.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/break-work-into-stories-and-track-it.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/choose-a-planning-path.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/define-requirements-and-a-specification.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/design-ux-and-architecture.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/explore-and-validate-an-idea.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/plan-inside-an-organization.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/research-a-decision.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/plan/set-up-the-ticket-tree.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/reference/skills-and-agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/start/build-your-first-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/start/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/start/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/approaches.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/bmad-eval.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/migrate-an-old-module.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/modes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/shapes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/toolsmith/toolsmith.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/bmad-developer-guide.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/build/walk-through-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/advanced-elicitation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/analysis-phase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/build.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/established-projects-faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/named-agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/party-mode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/preventing-agent-conflicts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/explanation/why-solutioning-matters.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/established-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/expand-bmad-for-your-org.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/install-custom-modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/quick-fixes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/how-to/upgrade-to-v6.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/core-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/testing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/reference/workflow-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/vi-vn/tutorials/getting-started.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/404.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/_STYLE_GUIDE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/build/walk-through-a-change.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/advanced-elicitation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/analysis-phase.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/build.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/established-projects-faq.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/forge-idea.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/named-agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/party-mode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/preventing-agent-conflicts.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/explanation/why-solutioning-matters.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/customize-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/established-projects.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/expand-bmad-for-your-org.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/get-answers-about-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/install-bmad.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/install-custom-modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/pressure-test-an-idea.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/project-context.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/quick-fixes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/how-to/upgrade-to-v6.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/index.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/agents.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/build-auto.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/commands.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/core-tools.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/modules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/testing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/reference/workflow-map.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs/zh-cn/tutorials/getting-started.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/javascript-conventions.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/locale-coverage-baseline.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/package-lock.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/package.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/content/i18n/fr-FR.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/content/i18n/ko-KR.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/content/i18n/vi-VN.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/content/i18n/zh-CN.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/diagrams/bmad-delivery-loop.labels.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/diagrams/build-run.labels.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/diagrams/development-paths.labels.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/diagrams/planning-skills.labels.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,docs-site/src/diagrams/walkthrough-run.labels.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,greptile.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,pyproject.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad/assets/config.template.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-advanced-elicitation/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-advanced-elicitation/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-agent-analyst/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-agent-architect/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-agent-dev/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-agent-pm/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-agent-ux-designer/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-architecture/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-brainstorming/assets/brain-icons.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-brainstorming/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-brainstorming/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-build/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-build-auto/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-code-review/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-correct-course/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-correct-course/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-customize/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-deep-recon/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-eval/SKILL.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/bmod.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/customize.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/evals/triggers.json,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/references/description-optimization.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/references/eval-format.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/references/grader.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/references/harness.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-eval/references/self-improvement.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-forge-idea/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-forge-idea/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-party-mode/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-prd/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-prd/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-prfaq/bmad-manifest.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-prfaq/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-prfaq/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-product-brief/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-product-brief/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-project-context/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-project-context/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-qa-generate-e2e-tests/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-qa-generate-e2e-tests/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-retrospective/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-retrospective/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-review/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-spec/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-spec/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/assets/tickets-template.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/github-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/jira-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/linear-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/notion-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/repo-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/config/trello-ticketing.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-ticket/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-toolsmith/SKILL.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/eval-first.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/eval-loop.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/from-logs.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/lean.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/scaffold.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/approaches/skill-creator-loop.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/bmod.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/canon.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/customize.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/discover.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/ecosystem.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/evals/triggers.json,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-architecture.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-contract.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-customization.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-determinism.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-leanness.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/lens-trigger.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/lenses/standards.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/convert.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/edit.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/migrate.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/package.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/review.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/modes/validate.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/agent/assets/SKILL-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/agent/assets/capability-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/agent/assets/customize-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/agent/assets/sample-capability.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/agent/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/BOND-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/CAPABILITIES-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/CREED-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/HOW-I-REMEMBER-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/PERSONA-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/PULSE-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/SKILL-template-bootloader.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/customize-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/first-breath-config-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/first-breath-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/assets/intake-capability-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/memory-agent/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/help-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/member-bmod-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/record-SKILL-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/record-bmod-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/retired-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/assets/roster-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/multi-skill-module/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/plain-skill/assets/SKILL-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/plain-skill/assets/customize-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/plain-skill/assets/sample-skill/SKILL.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/plain-skill/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/rendered-skill/assets/SKILL-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/rendered-skill/assets/customize-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/rendered-skill/assets/step.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/rendered-skill/assets/workflow.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/rendered-skill/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/script-utility/assets/SKILL-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/script-utility/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/single-skill-module/assets/bmod-template.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/single-skill-module/assets/help-template.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/shapes/single-skill-module/shape.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-toolsmith/ship.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmad-ux/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-walkthrough/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmad-walkthrough/customize.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-core-tools/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-core-tools/retired.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-method/bmod.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-method/migration-1.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-method/retired.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-method/roster.toml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,skills/bmod-toolsmith/SKILL.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/bmod.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/approaches.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/craft-customization.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/craft-description.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/craft-progressive-disclosure.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/craft-scripts.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/evals.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/help.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/how-to-add-to-module.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/how-to-convert-external.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/how-to-memory-agent.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/how-to-personal-skill.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/how-to-review.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/modes.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/naming.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/references.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/registration.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-agent.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-memory-agent.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-multi-skill-module.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-plain-skill.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-rendered-skill.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-script-utility.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shape-single-skill-module.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/help/shapes.md,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/retired.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,skills/bmod-toolsmith/roster.toml,独立 Toolsmith 扩展模块，不属于 Method + Core Tools
+BMAD Method,tools/release.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,tools/skill-validator.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,tools/tests/fixtures/validate-skills/deprecated-shim/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,tools/tests/fixtures/validate-skills/missing-trigger/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,tools/tests/fixtures/validate-skills/with-trigger/SKILL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+BMAD Method,tools/ticket-tree-rules.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.agents/plugins/marketplace.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.antigravity-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.claude-plugin/marketplace.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.claude-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.codex-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.cursor-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.devin-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/FUNDING.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/ISSUE_TEMPLATE/bug_report.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/ISSUE_TEMPLATE/config.yml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/ISSUE_TEMPLATE/diagnosis_report.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/ISSUE_TEMPLATE/feature_request.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/ISSUE_TEMPLATE/platform_support.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.github/PULL_REQUEST_TEMPLATE.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.hermes-plugin/plugin.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.kimi-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.muse-plugin/marketplace.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.muse-plugin/plugin.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.opencode/INSTALL.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.pre-commit-config.yaml,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,.version-bump.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,AGENTS.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,CODE_OF_CONDUCT.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,GEMINI.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,RELEASE-NOTES.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/README.kimi.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/README.opencode.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/plans/2025-11-22-opencode-support-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/plans/2025-11-22-opencode-support-implementation.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/plans/2025-11-28-skills-improvements-from-user-feedback.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/plans/2026-01-17-visual-brainstorming.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/porting-to-a-new-harness.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-01-22-document-review-system.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-03-23-codex-app-compatibility.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-04-06-worktree-rototill.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-05-06-lift-drill-into-evals.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-05-07-pi-extension-and-evals.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-06-09-sdd-task-scoped-review-dispatch.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-06-09-visual-companion-issues.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-06-10-visual-companion-auth-hardening.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-06-11-visual-companion-final-hardening-fixup.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-07-06-sdd-plan-scoped-workspace.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-07-15-sdd-fix-loop-redesign.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-07-30-codex-efficiency-fixes.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-08-06-hermes-version-bump-wiring.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-08-27-diagnosing-superpowers.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/plans/2026-10-06-antigravity-marketplace.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-01-22-document-review-system-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-02-19-visual-brainstorming-refactor-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-03-11-zero-dep-brainstorm-server-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-03-23-codex-app-compatibility-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-04-06-worktree-rototill-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-05-05-platform-neutral-config-refs-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-05-05-platform-neutral-prose-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-05-05-platform-neutral-readme-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-05-06-lift-drill-into-evals-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-06-09-sdd-task-scoped-review-dispatch-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-06-10-positive-instruction-redesign-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-06-10-strict-cost-sdd-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-06-10-visual-companion-auth-hardening-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-06-11-visual-companion-final-hardening-fixup-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace-eval-results.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-07-15-sdd-fix-loop-redesign-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-07-30-codex-efficiency-fixes-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-08-05-hermes-version-bump-wiring-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-08-27-diagnosing-superpowers-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-10-05-brainstorming-rebuild-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/superpowers/specs/2026-10-06-antigravity-marketplace-design.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/testing.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,docs/windows/polyglot-hooks.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,gemini-extension.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,hooks/hooks-cursor.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,hooks/hooks.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,package.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,skills/systematic-debugging/CREATION-LOG.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,skills/systematic-debugging/test-academic.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,skills/systematic-debugging/test-pressure-1.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,skills/systematic-debugging/test-pressure-2.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,skills/systematic-debugging/test-pressure-3.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,skills/using-superpowers/references/antigravity-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/using-superpowers/references/claude-code-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/using-superpowers/references/gemini-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/using-superpowers/references/hermes-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/using-superpowers/references/muse-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/using-superpowers/references/pi-tools.md,其他平台适配参考；本轮只选 Codex 一套
+Superpowers,skills/writing-skills/examples/CLAUDE_MD_TESTING.md,技能开发测试样例/历史记录，不是 agent 工作指令
+Superpowers,tests/brainstorm-server/package-lock.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/brainstorm-server/package.json,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/claude-code/README.md,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/action-oriented.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/after-planning-flow.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/claude-suggested-it.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/i-know-what-sdd-means.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/mid-conversation-execute-plan.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/please-use-brainstorming.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/skip-formalities.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/subagent-driven-development-please.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Superpowers,tests/explicit-skill-requests/prompts/use-systematic-debugging.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
+Kiro Specs,.github/ISSUE_TEMPLATE/bug_report.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/ISSUE_TEMPLATE/config.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/ISSUE_TEMPLATE/feature_request.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/close-duplicates.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/close-stale.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/delete-spam-comments.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/duplicate-dispute.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/duplicate-reaction-check.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/duplicates.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/issue-comment.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.github/workflows/issue-triage.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.kiro/specs/github-issue-automation/design.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.kiro/specs/github-issue-automation/requirements.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,.kiro/specs/github-issue-automation/tasks.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,CODE_OF_CONDUCT.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,CONTRIBUTING.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,docs/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,docs/STALE_ISSUE_CLOSING_EXPLAINED.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,docs/STALE_ISSUE_TIMELINE_EXAMPLES.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/.eslintrc.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/package-lock.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/package.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/test/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
+Kiro Specs,scripts/tsconfig.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
