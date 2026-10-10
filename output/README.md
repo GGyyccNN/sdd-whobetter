@@ -2,11 +2,9 @@
 
 本轮只盘点工具自身的公开文本，不代入项目，不调用模型，不运行 tokenizer，不推算费用。主比较包括 OpenSpec、Spec Kit、BMAD Method、Kiro Specs、Superpowers；GSD 按原计划保留为后续补充样本。
 
-## 可直接展示的结论
+## 主要结果
 
 在固定的官方源码快照和所选分发范围内，公开指令库存的中心估算为：Spec Kit 约 **4 万**、OpenSpec 约 **4.9 万**、Superpowers 约 **8.2 万**、BMAD Method 约 **23.1 万 token**。Kiro Specs 内部提示词未获得，保留为 **N/A**。这些是库存体量，**不等于每次任务额外输入、实际运行消耗或结果收益**。
-
-推荐讲述：“SDD 工具除了用户需求，还需要一套规则、工作流、模板与参考材料。我们静态盘点的可见库存约为 4 万到 23 万 token 量级；实际使用按需加载，不能把整个库存直接当成每轮账单。”
 
 ## 总量
 
@@ -58,7 +56,7 @@ Kiro 可观测性证据：[官方 README 的 About this repository](https://gith
 
 ## 文件说明
 
-- `01_overview.png / .svg / .pdf`：总量和功能占比，适合投屏。
+- `01_overview_v2.png / .svg / .pdf`：总量和功能占比，适合投屏。
 - `02_detail.png / .svg / .pdf`：分类总量、占比、字符数、来源与范围。
 - `comparison.html`：无需服务器的离线浏览页，含两张图及可筛选文件/字段明细；来源链接指向固定提交。
 - `prompt_inventory.csv`：逐文件/字段的字符、字节、估算区间、分类、SHA256、路径与来源链接。

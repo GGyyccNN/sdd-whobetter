@@ -6,7 +6,7 @@
 
 ## 概览图：总量与功能占比
 
-![SDD 工具静态提示词库存总量与功能占比](output/01_overview.png)
+![SDD 工具静态提示词库存总量与功能占比](output/01_overview_v2.png)
 
 ## 详细图：分类统计与来源范围
 
@@ -35,7 +35,7 @@
 - [完整统计报告与口径](output/README.md)
 - [离线浏览页](output/comparison.html)：下载后用浏览器打开，支持按工具、功能、文件筛选与 CSV 导出。
 - [完整成果包](output/SDD静态提示词对比.zip)：图片、PDF、SVG、数据、脚本和原始文本快照。
-- 概览图：[PNG](output/01_overview.png) · [SVG](output/01_overview.svg) · [PDF](output/01_overview.pdf)
+- 概览图：[PNG](output/01_overview_v2.png) · [SVG](output/01_overview_v2.svg) · [PDF](output/01_overview_v2.pdf)
 - 详细图：[PNG](output/02_detail.png) · [SVG](output/02_detail.svg) · [PDF](output/02_detail.pdf)
 - [逐文件/配置字段明细](output/prompt_inventory.csv) · [工具汇总](output/tool_summary.csv) · [功能分类汇总](output/category_summary.csv)
 - [固定版本来源](output/sources_manifest.json) · [完整数据与假设](output/comparison.json) · [排除文件清单](output/excluded_files.csv)
