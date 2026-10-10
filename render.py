@@ -68,7 +68,6 @@ for i,s in enumerate(S):
 fig.legend([Patch(facecolor=c) for c in COLORS],C,loc='lower center',bbox_to_anchor=(.54,.18),ncol=7,frameon=False,fontsize=10,handlelength=1.2,columnspacing=1.45)
 txt(fig,.045,.145,'读图提示',11,weight='bold')
 txt(fig,.11,.145,'OpenSpec 默认 core 子集约 27.5k；Superpowers 约 40% 属于工具维护。主图仍统一展示所选完整库存。',10.5)
-txt(fig,.045,.099,'演示时可说：这些工具需要维护约 4万—23万 token 量级的可见指令库存，实际按需加载。',12,weight='bold')
 txt(fig,.045,.053,'口径：单套规范来源；含模板与按需参考；排除多平台重复副本、代码、README、项目产物。范围为字符换算的启发式区间，非置信区间。',9,color=MUTED)
 txt(fig,.045,.026,'ASCII 字符约 3–5 字符/token，中心按 4；非 ASCII 单列估算。未用 DeepSeek v4.1 tokenizer 校准，不代表单次加载量、累计计费或质量排名。',9,color=MUTED)
 txt(fig,.95,.895,'快照 2026-10-10',10,color=MUTED,ha='right')
