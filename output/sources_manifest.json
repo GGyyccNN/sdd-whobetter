@@ -34,14 +34,5 @@
     "branch": "main",
     "declared_version": "7.0.0",
     "collected_date": "2026-10-10"
-  },
-  "kiro-public": {
-    "name": "Kiro Specs",
-    "repository_url": "https://github.com/kirodotdev/Kiro",
-    "commit": "bfe7ff30d9b21e583566c844d75e3dd2b572e2c7",
-    "commit_date": "2026-08-27",
-    "branch": "main",
-    "declared_version": "产品版本未统计；公开反馈仓库快照",
-    "collected_date": "2026-10-10"
   }
 }

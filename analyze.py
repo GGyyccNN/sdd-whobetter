@@ -7,8 +7,8 @@ SRC = ROOT / 'sources'
 OUT = ROOT / 'output'
 OUT.mkdir(exist_ok=True)
 CATS = ['引导与角色', '需求与规格', '设计与规划', '执行与编排', '验证与调试', '同步与收尾', '工具维护']
-NAMES = {'openspec':'OpenSpec', 'spec-kit':'Spec Kit', 'bmad':'BMAD Method', 'superpowers':'Superpowers', 'kiro-public':'Kiro Specs'}
-URLS = {'openspec':'https://github.com/Fission-AI/OpenSpec', 'spec-kit':'https://github.com/github/spec-kit', 'bmad':'https://github.com/bmad-code-org/BMAD-METHOD', 'superpowers':'https://github.com/obra/superpowers', 'kiro-public':'https://github.com/kirodotdev/Kiro'}
+NAMES = {'openspec':'OpenSpec', 'spec-kit':'Spec Kit', 'bmad':'BMAD Method', 'superpowers':'Superpowers'}
+URLS = {'openspec':'https://github.com/Fission-AI/OpenSpec', 'spec-kit':'https://github.com/github/spec-kit', 'bmad':'https://github.com/bmad-code-org/BMAD-METHOD', 'superpowers':'https://github.com/obra/superpowers'}
 rows, excluded = [], []
 def add(tool, path, text=None, *, category, kind, module, locator='', scope='完整库存'):
     p=SRC/tool/path
@@ -149,7 +149,7 @@ for repo,name in NAMES.items():
     else:
         archived=json.loads((OUT/'sources_manifest.json').read_text())[repo]
         sha,date,branch=archived['commit'],archived['commit_date'],archived['branch']
-    version={'openspec':'1.14.1','spec-kit':'1.1.4.dev0','bmad':'6.13.0-next','superpowers':'7.0.0','kiro-public':'产品版本未统计；公开反馈仓库快照'}[repo]
+    version={'openspec':'1.14.1','spec-kit':'1.1.4.dev0','bmad':'6.13.0-next','superpowers':'7.0.0'}[repo]
     meta[repo]={'name':name,'repository_url':URLS[repo],'commit':sha,'commit_date':date,'branch':branch,'declared_version':version,'collected_date':'2026-10-10'}
     selected=[r for r in rows if r['repository']==repo]
     seen=set(); unique=[]
@@ -160,7 +160,7 @@ for repo,name in NAMES.items():
             r['duplicate_of']=first['path']+'#'+first['locator']
         else:seen.add(r['sha256']);unique.append(r)
         r['source_url']=URLS[repo]+'/blob/'+sha+'/'+r['path']
-    measured=repo!='kiro-public'
+    measured=True
     s=dict(tool=name,repository=repo,observable=measured,source_files=len(set(r['path'] for r in selected)) if measured else None,
         fragments=len(selected) if measured else None,
         entrypoints=sum(r['kind'] in ['技能正文','命令正文'] and not r['module'].startswith('bmod-') for r in selected) if measured else None,
@@ -177,8 +177,7 @@ for repo,name in NAMES.items():
         path=str(f.relative_to(p))
         if path in included_paths:continue
         reason='非提示词源：代码、文档、元数据、测试或非所选分发范围'
-        if repo=='kiro-public':reason='公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）'
-        elif repo=='bmad' and path.startswith(('skills/bmad-toolsmith/','skills/bmad-eval/','skills/bmod-toolsmith/')):reason='独立 Toolsmith 扩展模块，不属于 Method + Core Tools'
+        if repo=='bmad' and path.startswith(('skills/bmad-toolsmith/','skills/bmad-eval/','skills/bmod-toolsmith/')):reason='独立 Toolsmith 扩展模块，不属于 Method + Core Tools'
         elif repo=='superpowers' and 'using-superpowers/references/' in path:reason='其他平台适配参考；本轮只选 Codex 一套'
         elif repo=='superpowers' and ('examples/' in path or f.name in sp_skip):reason='技能开发测试样例/历史记录，不是 agent 工作指令'
         excluded.append({'tool':name,'path':path,'reason':reason})
@@ -189,6 +188,11 @@ def write_csv(name, data):
 write_csv('prompt_inventory.csv',rows)
 if all((SRC/repo/'.git').exists() for repo in NAMES):
     write_csv('excluded_files.csv',excluded)
+elif (OUT/'excluded_files.csv').exists():
+    with (OUT/'excluded_files.csv').open(encoding='utf-8-sig',newline='') as f:
+        retained=[r for r in csv.DictReader(f) if r['tool'] in NAMES.values()]
+    if retained:
+        write_csv('excluded_files.csv',retained)
 write_csv('tool_summary.csv',[{k:v for k,v in s.items() if k not in ['categories','modules']} for s in summary])
 cat_rows=[]
 for s in summary:

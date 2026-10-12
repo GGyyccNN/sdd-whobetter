@@ -1507,30 +1507,3 @@ Superpowers,tests/explicit-skill-requests/prompts/please-use-brainstorming.txt,�
 Superpowers,tests/explicit-skill-requests/prompts/skip-formalities.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
 Superpowers,tests/explicit-skill-requests/prompts/subagent-driven-development-please.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
 Superpowers,tests/explicit-skill-requests/prompts/use-systematic-debugging.txt,非提示词源：代码、文档、元数据、测试或非所选分发范围
-Kiro Specs,.github/ISSUE_TEMPLATE/bug_report.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/ISSUE_TEMPLATE/config.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/ISSUE_TEMPLATE/feature_request.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/close-duplicates.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/close-stale.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/delete-spam-comments.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/duplicate-dispute.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/duplicate-reaction-check.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/duplicates.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/issue-comment.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.github/workflows/issue-triage.yml,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.kiro/specs/github-issue-automation/design.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.kiro/specs/github-issue-automation/requirements.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,.kiro/specs/github-issue-automation/tasks.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,CODE_OF_CONDUCT.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,CONTRIBUTING.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,docs/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,docs/STALE_ISSUE_CLOSING_EXPLAINED.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,docs/STALE_ISSUE_TIMELINE_EXAMPLES.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/.eslintrc.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/package-lock.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/package.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/test/README.md,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
-Kiro Specs,scripts/tsconfig.json,公开反馈仓库内容，非 Kiro 产品内部 Specs 提示词（含示例输出规格）
