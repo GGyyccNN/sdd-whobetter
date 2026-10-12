@@ -7,8 +7,8 @@ SRC = ROOT / 'sources'
 OUT = ROOT / 'output'
 OUT.mkdir(exist_ok=True)
 CATS = ['引导与角色', '需求与规格', '设计与规划', '执行与编排', '验证与调试', '同步与收尾', '工具维护']
-NAMES = {'openspec':'OpenSpec', 'spec-kit':'Spec Kit', 'bmad':'BMAD Method', 'superpowers':'Superpowers'}
-URLS = {'openspec':'https://github.com/Fission-AI/OpenSpec', 'spec-kit':'https://github.com/github/spec-kit', 'bmad':'https://github.com/bmad-code-org/BMAD-METHOD', 'superpowers':'https://github.com/obra/superpowers'}
+NAMES = {'openspec':'OpenSpec', 'spec-kit':'Spec Kit', 'bmad':'BMAD Method', 'superpowers':'Superpowers', 'gsd':'GSD Core'}
+URLS = {'openspec':'https://github.com/Fission-AI/OpenSpec', 'spec-kit':'https://github.com/github/spec-kit', 'bmad':'https://github.com/bmad-code-org/BMAD-METHOD', 'superpowers':'https://github.com/obra/superpowers', 'gsd':'https://github.com/open-gsd/gsd-core'}
 rows, excluded = [], []
 def add(tool, path, text=None, *, category, kind, module, locator='', scope='完整库存'):
     p=SRC/tool/path
@@ -137,6 +137,11 @@ for p in sorted((SRC/'superpowers'/'skills').rglob('*.md')):
     kind='技能正文' if p.name=='SKILL.md' else ('文档模板' if 'templates' in rel.parts else '步骤与参考')
     add('superpowers',str(rel),category=cat,kind=kind,module=module,scope='全技能库 / Codex 参考')
 
+# GSD: full canonical inventory, not duplicate generated skills or compact alternatives.
+gsd_scope=json.loads((SRC/'gsd'/'inventory_scope.json').read_text())
+for item in gsd_scope['files']:
+    add('gsd',item['path'],category=CATS[item['category_index']],kind=item['kind'],module=item['module'],scope='full / 非 compact 规范源码')
+
 # Per-tool whole-text duplicates are reported separately, not silently dropped.
 summary=[]
 meta={}
@@ -149,8 +154,9 @@ for repo,name in NAMES.items():
     else:
         archived=json.loads((OUT/'sources_manifest.json').read_text())[repo]
         sha,date,branch=archived['commit'],archived['commit_date'],archived['branch']
-    version={'openspec':'1.14.1','spec-kit':'1.1.4.dev0','bmad':'6.13.0-next','superpowers':'7.0.0'}[repo]
-    meta[repo]={'name':name,'repository_url':URLS[repo],'commit':sha,'commit_date':date,'branch':branch,'declared_version':version,'collected_date':'2026-10-10'}
+    version={'openspec':'1.14.1','spec-kit':'1.1.4.dev0','bmad':'6.13.0-next','superpowers':'7.0.0','gsd':gsd_scope['metadata']['declared_version']}[repo]
+    collected_date='2026-10-12' if repo=='gsd' else '2026-10-10'
+    meta[repo]={'name':name,'repository_url':URLS[repo],'commit':sha,'commit_date':date,'branch':branch,'declared_version':version,'collected_date':collected_date}
     selected=[r for r in rows if r['repository']==repo]
     seen=set(); unique=[]
     for r in selected:
@@ -200,6 +206,6 @@ for s in summary:
         v=s['categories'][cat] if s['observable'] else None
         cat_rows.append({'tool':s['tool'],'category':cat,'chars':v['chars'] if v else None,'estimated_tokens':v['estimated_tokens'] if v else None,'share':v['estimated_tokens']/s['estimated_tokens'] if v else None,'source_files':v['source_files'] if v else None})
 write_csv('category_summary.csv',cat_rows)
-(OUT/'comparison.json').write_text(json.dumps({'method':{'scope':'公开规范来源文件的静态库存；包含按需材料和模板；不等于单次加载或计费 token','model_target':'DeepSeek v4.1（字符启发式，未用该模型 tokenizer 校准）','estimate':'ASCII/4 + non-ASCII/1.5','low':'ASCII/5 + non-ASCII/2','high':'ASCII/3 + non-ASCII','categorization':'文件或配置字段按主要功能人工映射；非逐句分类','date':'2026-10-10'},'categories':CATS,'sources':meta,'summary':summary,'inventory':rows},ensure_ascii=False,indent=2),encoding='utf-8')
+(OUT/'comparison.json').write_text(json.dumps({'method':{'scope':'公开规范来源文件的静态库存；包含按需材料和模板；不等于单次加载或计费 token','model_target':'DeepSeek v4.1（字符启发式，未用该模型 tokenizer 校准）','estimate':'ASCII/4 + non-ASCII/1.5','low':'ASCII/5 + non-ASCII/2','high':'ASCII/3 + non-ASCII','categorization':'文件或配置字段按主要功能人工映射；非逐句分类','date':'2026-10-12'},'categories':CATS,'sources':meta,'summary':summary,'inventory':rows},ensure_ascii=False,indent=2),encoding='utf-8')
 for s in summary:
     print(s['tool'],s['chars'],s['source_files'],s['entrypoints'],None if not s['observable'] else round(s['estimated_tokens']/1000,1),None if not s['observable'] else [round(s[k]/1000,1) for k in ['low_tokens','high_tokens']], 'unique',None if not s['observable'] else round(s['whole_text_deduplicated_tokens']/1000,1))

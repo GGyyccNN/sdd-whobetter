@@ -9,9 +9,9 @@
 3. **Spec Kit**：在验收方面的内容相对较少。
 4. **OpenSpec**：最全面、最标准，可以作为比较基准。
 
-对比 **OpenSpec、GitHub Spec Kit、BMAD Method、Superpowers** 自身的公开提示词体量及功能构成。
+对比 **OpenSpec、GitHub Spec Kit、BMAD Method、Superpowers、GSD Core** 自身的公开提示词体量及功能构成。
 
-本轮只做静态盘点：不代入实际项目，不调用模型，不运行 tokenizer，不测算运行费用或结果收益。官方源码快照固定于 **2026-10-10**；以 DeepSeek v4.1 为目标，使用字符启发式估算 token 量级。
+本轮只做静态盘点：不代入实际项目，不调用模型，不运行 tokenizer，不测算运行费用或结果收益。原四个工具沿用 **2026-10-10** 的固定提交；GSD Core 使用用户指定的 **`next` 分支，2026-10-12 快照**。以 DeepSeek v4.1 为目标，使用字符启发式估算 token 量级。
 
 ## 概览图：总量与功能占比
 
@@ -29,13 +29,16 @@
 | Spec Kit | 157,715 | 约 39.5k token | 32–53k |
 | BMAD Method | 919,741 | 约 230.9k token | 185–308k |
 | Superpowers | 326,354 | 约 81.9k token | 65–109k |
+| GSD Core | 4,213,847 | 约 1,058.9k token | 847–1,413k |
 
 **这些数字表示所选完整可见指令库存，不代表每次任务的额外输入或累计计费。** 实际使用按需加载。估算未用 DeepSeek v4.1 tokenizer 校准；范围不是统计置信区间，也不保证覆盖真实 tokenizer 的结果。
 
 - OpenSpec 主图包含全部 12 个工作流；默认 core 子集加 schema/模板约 27.5k。
 - BMAD 范围为 Method + Core Tools，不包含独立 Toolsmith 扩展。
 - Superpowers 约 40.3% 的库存属于技能编写和工具诊断；其余库存约 48.9k，仍不是一次任务的加载量。
-- 使用默认分支的固定提交，包含 Spec Kit dev 和 BMAD next 快照，不声称所有样本均为稳定发布版。
+- GSD Core 为 **full / 非 compact 规范源码库存**，包含 72 个命令、35 个代理指令、178 个工作流/片段、116 个参考材料、35 个模板和 3 个上下文指令，共 439 个来源文件。生成的 `skills/` 副本和 compact 替代版本不重复计入；不叠加选装能力、运行时转换包装和可执行代码。
+- GSD 的约 **106 万 token** 是完整库存量级，包含其他路径和按需材料，不等于一次任务加载量。这里没有测量 minimal/core 安装配置或实际执行成本。
+- 原四项使用默认分支固定提交，GSD 使用指定 next 分支；包含 Spec Kit dev 和 BMAD next，不声称所有样本均为稳定发布版。
 
 ## 查看与下载
 
@@ -46,6 +49,7 @@
 - 详细图：[PNG](output/02_detail_v2.png) · [SVG](output/02_detail_v2.svg) · [PDF](output/02_detail_v2.pdf)
 - [逐文件/配置字段明细](output/prompt_inventory.csv) · [工具汇总](output/tool_summary.csv) · [功能分类汇总](output/category_summary.csv)
 - [固定版本来源](output/sources_manifest.json) · [完整数据与假设](output/comparison.json) · [排除文件清单](output/excluded_files.csv)
+- GSD：[用户指定的中文 README](https://github.com/open-gsd/gsd-core/blob/next/README.zh-CN.md) · [固定快照 README](sources/gsd/README.zh-CN.md) · [范围、逐文件分类与 SHA256](sources/gsd/inventory_scope.json)
 
 ## 复核统计与重新出图
 
@@ -65,4 +69,4 @@ python render.py
 
 统计按文件或配置字段的主要功能归类，未逐句拆分。空白、标题、frontmatter 和示例保留；TOML/YAML 指令字段解析为原字符串。完整文本片段的重复量另列 SHA256 去重值，不做语义去重。
 
-原始文本来源与许可证见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。GSD 按原计划保留为后续补充样本，本轮未纳入。
+原始文本来源与许可证见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。新版图表、CSV、网页和成果包覆盖原有文件路径；README 开头的个人演讲结论保留原文。

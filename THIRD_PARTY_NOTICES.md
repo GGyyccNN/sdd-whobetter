@@ -8,5 +8,6 @@
 | [github/spec-kit](https://github.com/github/spec-kit) | `0443760542e7e5269724744a2ac55c4bd386d095` | [原始 LICENSE](sources/spec-kit/LICENSE) |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | `bda3c5929f672019b90f39a3ea27259d35d00974` | [原始 LICENSE](sources/bmad/LICENSE) |
 | [obra/superpowers](https://github.com/obra/superpowers) | `bb92a77741419a4ab5f06e711a283343f1ada0c3` | [原始 LICENSE](sources/superpowers/LICENSE) |
+| [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core)（`next`） | `b747aca5b1dcff699c36d90c5b9fca0ec6354c1c` | [原始 LICENSE](sources/gsd/LICENSE) |
 
 所有计入文本的在线路径均指向固定提交，详见 [逐文件明细](output/prompt_inventory.csv)。

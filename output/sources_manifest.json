@@ -34,5 +34,14 @@
     "branch": "main",
     "declared_version": "7.0.0",
     "collected_date": "2026-10-10"
+  },
+  "gsd": {
+    "name": "GSD Core",
+    "repository_url": "https://github.com/open-gsd/gsd-core",
+    "commit": "b747aca5b1dcff699c36d90c5b9fca0ec6354c1c",
+    "commit_date": "2026-10-11",
+    "branch": "next",
+    "declared_version": "1.16.0",
+    "collected_date": "2026-10-12"
   }
 }

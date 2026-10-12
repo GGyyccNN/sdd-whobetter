@@ -5,6 +5,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from matplotlib.patches import Rectangle, Patch
+from matplotlib.ticker import MaxNLocator
 import numpy as np
 
 ROOT=Path(__file__).resolve().parent
@@ -17,7 +18,7 @@ plt.rcParams.update({'font.family':font_manager.FontProperties(fname=F).get_name
     'font.size':11,'svg.fonttype':'none','pdf.fonttype':42,'figure.facecolor':'#F7F8FC','axes.facecolor':'#F7F8FC'})
 COLORS=['#6C7CBE','#2A9D8F','#E8AD43','#477FC1','#D07899','#A18ABD','#8E9AA5']
 INK='#202D43'; MUTED='#627187'; GRID='#DBE0EA'
-TOOLS=['#477FC1','#2A9D8F','#D89232','#8E75B5']
+TOOLS=['#477FC1','#2A9D8F','#D89232','#8E75B5','#5B9893']
 
 def txt(fig,x,y,t,size=11,color=INK,weight='normal',**kw):
     return fig.text(x,y,t,fontsize=size,color=color,fontweight=weight,**kw)
@@ -29,16 +30,18 @@ def save(fig,name):
         fig.savefig(OUT/f'{name}.{ext}',dpi=180,facecolor=fig.get_facecolor())
     plt.close(fig)
 
-# Slide 1: absolute inventory and composition for the four selected tools.
+# Slide 1: absolute inventory and composition for the selected tools.
 fig=plt.figure(figsize=(16,9))
 txt(fig,.045,.939,'SDD 工具自身，带来多大的提示词库存？',25,weight='bold')
 txt(fig,.045,.895,'公开指令的静态盘点  ·  DeepSeek v4.1 目标估算  ·  未运行项目或模型',12,color=MUTED)
 txt(fig,.045,.821,'01  库存总量',16,weight='bold')
 txt(fig,.57,.821,'02  功能构成',16,weight='bold')
 ax=fig.add_axes([.153,.30,.365,.46]); clean(ax)
-ax.set_ylim(-.55,len(S)-.45);ax.invert_yaxis();ax.set_xlim(0,335)
+max_high=max(s['high_tokens']/1000 for s in S if s['observable'])
+x_limit=max(335,math.ceil(max_high*1.20/100)*100)
+ax.set_ylim(-.55,len(S)-.45);ax.invert_yaxis();ax.set_xlim(0,x_limit)
 ax.set_yticks(range(len(S)));ax.set_yticklabels([s['tool'] for s in S],fontsize=13,color=INK)
-ax.set_xticks([0,50,100,150,200,250,300]);ax.set_xlabel('估算 token（k = 千）',color=MUTED,labelpad=12)
+ax.xaxis.set_major_locator(MaxNLocator(nbins=5,steps=[1,2,2.5,5,10]));ax.set_xlabel('估算 token（k = 千）',color=MUTED,labelpad=12)
 ax.xaxis.grid(True,color=GRID,alpha=.75);ax.set_axisbelow(True)
 for i,s in enumerate(S):
     if not s['observable']:
@@ -49,8 +52,8 @@ for i,s in enumerate(S):
     ax.plot([lo,hi],[i+.22]*2,color=MUTED,lw=1.2,zorder=4)
     ax.plot([lo,lo],[i+.17,i+.27],color=MUTED,lw=1.2)
     ax.plot([hi,hi],[i+.17,i+.27],color=MUTED,lw=1.2)
-    ax.text(v+4,i-.035,f'≈ {v:.0f}k',fontsize=13,color=INK,weight='bold',va='center')
-    ax.text(hi+3,i+.23,f'{lo:.0f}–{hi:.0f}k',fontsize=9,color=MUTED,va='center')
+    ax.text(v+x_limit*.012,i-.035,f'≈ {v:.0f}k',fontsize=13,color=INK,weight='bold',va='center')
+    ax.text(hi+x_limit*.009,i+.23,f'{lo:.0f}–{hi:.0f}k',fontsize=9,color=MUTED,va='center')
 ax2=fig.add_axes([.575,.30,.365,.46]);clean(ax2)
 ax2.set_ylim(-.55,len(S)-.45);ax2.invert_yaxis();ax2.set_xlim(0,100)
 ax2.set_yticks([]);ax2.set_xticks([0,25,50,75,100]);ax2.set_xticklabels(['0%','25%','50%','75%','100%']);ax2.set_xlabel('占该工具估算库存的比例',color=MUTED,labelpad=12)
@@ -68,7 +71,7 @@ for i,s in enumerate(S):
 ax2.legend([Patch(facecolor=c) for c in COLORS],C,loc='upper center',bbox_to_anchor=(.5,-.22),ncol=3,frameon=False,fontsize=10.5,handlelength=1.1,handletextpad=.6,labelspacing=.75,columnspacing=1.35,borderaxespad=0)
 txt(fig,.045,.053,'口径：单套规范来源；含模板与按需参考；排除多平台重复副本、代码、README、项目产物。范围为字符换算的启发式区间，非置信区间。',9,color=MUTED)
 txt(fig,.045,.026,'ASCII 字符约 3–5 字符/token，中心按 4；非 ASCII 单列估算。未用 DeepSeek v4.1 tokenizer 校准，不代表单次加载量、累计计费或质量排名。',9,color=MUTED)
-txt(fig,.95,.895,'快照 2026-10-10',10,color=MUTED,ha='right')
+txt(fig,.95,.895,'原四项：10-10  ·  GSD：10-12',10,color=MUTED,ha='right')
 save(fig,'01_overview_v4')
 for legacy in ['01_overview','01_overview_v2','01_overview_v3']:
     for ext in ['png','svg','pdf']:
@@ -98,29 +101,31 @@ for i,s in enumerate(S):
             ax.add_patch(Rectangle((xs[j]+.025,y+.075),widths[j]-.05,.85,color=COLORS[j-1],alpha=.12+min(.25,share/100)))
             t=f'≈{v:.1f}k\n{share:.1f}%';color=INK
         ax.text(x,y+.5,t,ha='center',va='center',fontsize=10.5,color=color,linespacing=1.7)
-    tail=[f"≈{s['estimated_tokens']/1000:.1f}k\n{s['low_tokens']/1000:.0f}–{s['high_tokens']/1000:.0f}k",f"{s['chars']:,}\n{s['source_files']} 来源文件",f"{s['entrypoints']} 入口\n{s['version']}"] if s['observable'] else ['不可统计','内部指令\n未获得','产品提示词\n不可见']
+    version=s['version']+' · next' if s['repository']=='gsd' else s['version']
+    tail=[f"≈{s['estimated_tokens']/1000:.1f}k\n{s['low_tokens']/1000:.0f}–{s['high_tokens']/1000:.0f}k",f"{s['chars']:,}\n{s['source_files']} 来源文件",f"{s['entrypoints']} 入口\n{version}"] if s['observable'] else ['不可统计','内部指令\n未获得','产品提示词\n不可见']
     for j,t in enumerate(tail,8):ax.text(xs[j]+widths[j]/2,y+.5,t,ha='center',va='center',fontsize=9.5,color=INK if s['observable'] else MUTED,linespacing=1.75)
 for x in xs:ax.plot([x,x],[0,table_rows],color='#D6DDE7',lw=.65)
 for y in range(table_rows+1):ax.plot([0,xs[-1]],[y,y],color='#D6DDE7',lw=.65)
 txt(fig,.035,.457,'0 表示没有文件被主归类到这一栏，不能据此判断工具缺少该功能。入口 = 所选可调用 skill / slash-command；BMAD 模块记录不算入口。',9,color=MUTED)
 
 txt(fig,.035,.412,'统计范围与主要体量来源',16,weight='bold')
-cardx=[.035,.272,.509,.746];cardw=.218
-for s,x,col in zip(S[:4],cardx,TOOLS[:4]):
+cardx=np.linspace(.035,.791,len(S));cardw=.175
+for s,x,col in zip(S,cardx,TOOLS):
     fig.add_artist(Rectangle((x,.197),cardw,.18,transform=fig.transFigure,facecolor='white',edgecolor=GRID,lw=.7))
     txt(fig,x+.012,.352,s['tool'],13,col,weight='bold')
-    scope={'OpenSpec':'12 工作流 + 默认 schema 指令/模板','Spec Kit':'10 核心命令 + 5 文档模板','BMAD Method':'Method + Core Tools；排除 Toolsmith','Superpowers':'15 skills + 按需参考；单套 Codex'}[s['tool']]
-    txt(fig,x+.012,.325,scope,8.5,color=MUTED)
+    scope={'OpenSpec':'12 工作流 + 默认 schema/模板','Spec Kit':'10 命令 + 5 文档模板','BMAD Method':'Method + Core Tools','Superpowers':'15 skills + 按需参考；Codex','GSD Core':'full / 非 compact；72 命令 + 35 代理'}[s['tool']]
+    txt(fig,x+.012,.325,scope,8,color=MUTED)
     top=sorted(s['modules'].items(),key=lambda kv:kv[1],reverse=True)[:3]
     for k,(m,v) in enumerate(top):
         m=m.removeprefix('bmad-').removeprefix('bmod-')
-        txt(fig,x+.012,.295-k*.027,f'{m}   ≈ {v/1000:.1f}k',9.5)
+        if len(m)>24:m=m[:23]+'…'
+        txt(fig,x+.012,.295-k*.027,f'{m}  ≈ {v/1000:.1f}k',8.5)
     txt(fig,x+.012,.211,f"全文片段去重后 ≈ {s['whole_text_deduplicated_tokens']/1000:.1f}k",8.5,color=MUTED)
 txt(fig,.035,.111,'换算与边界',11,weight='bold')
 txt(fig,.122,.111,'中心 = ASCII / 4 + 非 ASCII / 1.5；下界 = ASCII / 5 + 非 ASCII / 2；上界 = ASCII / 3 + 非 ASCII。',9.5)
 txt(fig,.035,.074,'原始字符数与文件路径可复核；token 是未校准的量级估算。工具内重复文件保留在库存总量中，完整文本片段去重值另列。',9.5,color=MUTED)
 txt(fig,.035,.045,'不含项目代码/产出文档、模型系统提示词、工具 schema、请求历史、运行时包装/索引、缓存、子代理重复加载或选装扩展。',9.5,color=MUTED)
-txt(fig,.035,.022,'版本：官方默认分支固定 SHA（含 Spec Kit dev 与 BMAD next）；详见 sources_manifest.json 和文件明细。采集日期：2026-10-10。',9,color=MUTED)
+txt(fig,.035,.022,'版本：原四项沿用 2026-10-10 固定提交；GSD 为 next 分支 2026-10-12 快照。完整版本与范围见 sources_manifest.json。',9,color=MUTED)
 save(fig,'02_detail_v2')
 for ext in ['png','svg','pdf']:
     (OUT/f'02_detail.{ext}').write_bytes((OUT/f'02_detail_v2.{ext}').read_bytes())
@@ -128,9 +133,9 @@ for ext in ['png','svg','pdf']:
 # Evidence and presentation notes.
 (OUT/'sources_manifest.json').write_text(json.dumps(DATA['sources'],ensure_ascii=False,indent=2),encoding='utf-8')
 report=['# SDD 工具静态提示词对比\n',
-    '本轮只盘点工具自身的公开文本，不代入项目，不调用模型，不运行 tokenizer，不推算费用。主比较包括 OpenSpec、Spec Kit、BMAD Method、Superpowers；GSD 按原计划保留为后续补充样本。\n',
+    '本轮只盘点工具自身的公开文本，不代入项目，不调用模型，不运行 tokenizer，不推算费用。比较包括 OpenSpec、Spec Kit、BMAD Method、Superpowers、GSD Core。\n',
     '## 主要结果\n',
-    '在固定的官方源码快照和所选分发范围内，公开指令库存的中心估算为：Spec Kit 约 **4 万**、OpenSpec 约 **4.9 万**、Superpowers 约 **8.2 万**、BMAD Method 约 **23.1 万 token**。这些是库存体量，**不等于每次任务额外输入、实际运行消耗或结果收益**。\n',
+    '在固定的官方源码快照和所选分发范围内，公开指令库存的中心估算为：Spec Kit 约 **4 万**、OpenSpec 约 **4.9 万**、Superpowers 约 **8.2 万**、BMAD Method 约 **23.1 万**、GSD Core 约 **105.9 万 token**。这些是库存体量，**不等于每次任务额外输入、实际运行消耗或结果收益**。\n',
     '## 总量\n',
     '| 工具 | 精确字符数 | 来源文件 | 入口数 | 中心估算 | 启发式范围 |\n|---|---:|---:|---:|---:|---:|']
 for s in S:
@@ -142,15 +147,17 @@ report += ['\n## 统计口径\n',
     '- Spec Kit：`templates/commands/*.md` 的 10 个核心命令和 `templates/*-template.md` 的 5 个模板；不含选装 extensions、presets、非提示词 workflow 编排配置、脚本以及其他 agent 输出副本。',
     '- BMAD：按官方 `bmod-method/bmod.toml` 和 `bmod-core-tools/bmod.toml` 声明的技能，加上这两个模块记录。计入其中 Markdown、CSV 方法库，以及 `customize.toml` 中承载指令的字段；去掉配置注释、路径、空占位、enum 和非指令元数据。`analyze.py` 内 `STRING_KEYS` 给出完整字段白名单。Toolsmith 是独立扩展，本轮排除。',
     '- Superpowers：15 个技能，正文及工作参考/模板；平台参考仅保留 Codex。一并计入 writing-skills 与 diagnosing-superpowers 这两个辅助技能；排除技能开发测试场景、历史创建日志和其他平台参考。工具维护约 **33.0k（40.3%）**；其余库存约 **48.9k**，这同样不是一次执行路径的加载估计。',
+    '- GSD Core：用户指定的 `next` 分支，固定提交 `b747aca5b1dcff699c36d90c5b9fca0ec6354c1c`，仓库声明版本 `1.16.0`。选择 full 规范源码库存与默认非 compact 文本：72 个 `commands/gsd` 命令、35 个非 compact agent 正文、178 个工作流/片段、116 个参考材料、35 个模板、3 个上下文指令，共 439 来源文件。`skills/` 由命令生成，避免重复计入；compact 是替代版本，也不叠加。排除 capabilities 选装能力与平台转换包装、源码、README 元数据索引、Copilot 专用模板。原始中文 README 作为入口参考留存，不作为提示词计量。',
+    '- GSD 的路径、主功能分类与原文 SHA256 见 `sources/gsd/inventory_scope.json`。工作流中的 shell 示例和静态约束仍属于模型可读指令，保留原文；库存包含按需材料、其他路径和替代模板，不意味着一次流程会加载 105.9 万 token，也不直接比较 minimal/core 配置。',
     '- 每个规范来源文件计一次；同一文件的多个配置字段分别计为片段，来源文件数去重。入口数只计可调用技能/命令正文，不把每个 Markdown 都叫作独立提示词；BMAD 的 2 个 bmod 模块记录不算入口。相同文本出现在不同规范文件时保留在原始库存；另给完整文本片段 SHA256 去重值，未做语义或段落级去重。',
     '- 配置字段与 schema 指令经 TOML/YAML 解析后按原字符串统计；格式化后的 runtime JSON 和 key 包装不在本次文本口径中。分段空白可能因运行时序列化变化。',
     '- 功能按文件/配置字段主要目的人工映射到七类，不逐句拆分复合功能；占比按中心估算 token 计算，不能解释为功能覆盖度或工程价值。来源文件可跨分类，分类文件数不应相加当作总文件数。',
     '\n## DeepSeek v4.1 token 估算\n',
-    '本轮没有取得并验证 DeepSeek v4.1 的专用 tokenizer；数字是以该模型为目标的通用字符量级估算，不能称为该模型的实际 token 统计。公开文本超过 99.7% 的字符为 ASCII，以英文 Markdown 为主。',
+    '本轮没有取得并验证 DeepSeek v4.1 的专用 tokenizer；数字是以该模型为目标的通用字符量级估算，不能称为该模型的实际 token 统计。各工具公开指令文本超过 99.6% 的字符为 ASCII，以英文 Markdown 为主。',
     '\n设 A = ASCII 字符数，U = 非 ASCII 字符数：\n\n- 中心估算：`A / 4 + U / 1.5`\n- 下界：`A / 5 + U / 2`\n- 上界：`A / 3 + U / 1`\n',
     '这只是选择了一个宽的经验换算范围，**不是统计置信区间，也不是保证覆盖真实 tokenizer 的上下限**。路径、标点、代码示例、Markdown 表格和模型词表可能带来偏差。功能占比也依赖此换算与人工分类。原始字符数可用于后续换一种假设重新估算。',
     '\n## 版本与证据\n',
-    '采集日期：2026-10-10。采用官方默认分支的固定提交；版本号只是仓库内声明，**不是声称所有样本都是稳定发布版**。Spec Kit 为 dev，BMAD 为 next。不同版本之间不可直接继承本图数字。\n',
+    '原四个工具保留 2026-10-10 的官方默认分支固定提交；GSD 按用户指定的 next 分支于 2026-10-12 采集，未刷新其他工具。版本号只是仓库内声明，**不是声称所有样本都是稳定发布版**。Spec Kit 为 dev，BMAD 为 next，GSD 也取 next 分支。不同版本之间不可直接继承本图数字。\n',
     '| 工具 | 仓库声明版本 | 固定提交 | 提交日期 |\n|---|---|---|---|']
 for repo,m in DATA['sources'].items():
     report.append(f"| {m['name']} | {m['declared_version']} | [{m['commit'][:12]}]({m['repository_url']}/tree/{m['commit']}) | {m['commit_date']} |")
@@ -159,7 +166,7 @@ report += ['\n## 文件说明\n',
     '- `02_detail_v2.png / .svg / .pdf`：分类总量、占比、字符数、来源与范围。',
     '- `comparison.html`：无需服务器的离线浏览页，含两张图及可筛选文件/字段明细；来源链接指向固定提交。',
     '- `prompt_inventory.csv`：逐文件/字段的字符、字节、估算区间、分类、SHA256、路径与来源链接。',
-    '- `tool_summary.csv / category_summary.csv`：四个工具的总量/分类汇总。',
+    '- `tool_summary.csv / category_summary.csv`：五个工具的总量/分类汇总。',
     '- `excluded_files.csv`：未纳入的文本候选文件及范围排除说明。',
     '- `comparison.json / sources_manifest.json`：完整数据、估算假设与固定提交信息。',
     '- `analyze.py / render.py`：统计与出图脚本；它们只处理官方源码文本，不执行所比较工具的 workflow。',
@@ -172,15 +179,15 @@ inventory=json.dumps(R,ensure_ascii=False).replace('</','<\\/')
 imgs={n:base64.b64encode((OUT/f'{n}.png').read_bytes()).decode() for n in ['01_overview_v4','02_detail_v2']}
 page=r'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SDD 静态提示词对比</title>
 <style>:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#20304a;font:15px/1.65 system-ui,"Noto Sans CJK SC",sans-serif}main{max-width:1400px;margin:auto;padding:26px}h1{font-size:29px;margin:0}h2{font-size:21px;margin-top:34px}.muted{color:#657287}a{color:#2861a3}nav{display:flex;gap:20px;position:sticky;top:0;background:#f5f7fb;padding:12px 0;z-index:2}figure{margin:18px 0;background:white;border:1px solid #dce3ee;border-radius:12px;overflow:hidden}img{width:100%;display:block}.card{padding:16px 20px;background:white;border:1px solid #dce3ee;border-radius:10px}.filters{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}select,input{border:1px solid #bdc9dc;background:white;border-radius:7px;padding:10px;font:inherit}input{min-width:300px;flex:1}.scroll{overflow:auto;border:1px solid #dce3ee;background:white;border-radius:8px;max-height:680px}table{border-collapse:collapse;width:100%;font-size:13px}th{position:sticky;top:0;background:#243650;color:white;text-align:left}th,td{padding:9px 12px;border-bottom:1px solid #e5eaf2}td.num{white-space:nowrap;text-align:right}td.path{max-width:500px;overflow-wrap:anywhere}tr:hover{background:#f0f4fa}button{cursor:pointer;border:1px solid #aebed5;background:#e7eef8;padding:10px 16px;border-radius:7px;font:inherit}details{margin-top:18px}footer{padding:32px 0;color:#657287}.badge{padding:3px 7px;border-radius:5px;background:#e9eef7;white-space:nowrap}@media print{nav,.filters,button{display:none}.scroll{max-height:none}}</style>
-<main><h1>SDD 工具：静态提示词库存对比</h1><p class="muted">固定官方源码快照 · 2026-10-10 · 仅静态盘点，不运行项目、模型或 tokenizer</p>
+<main><h1>SDD 工具：静态提示词库存对比</h1><p class="muted">原四项快照 2026-10-10 · GSD next 快照 2026-10-12 · 仅静态盘点，不运行项目、模型或 tokenizer</p>
 <nav><a href="#overview">概览图</a><a href="#detail">详细图</a><a href="#inventory">文件明细</a><a href="#method">统计口径</a></nav>
-<div class="card"><b>统计范围：</b>四个工具需要维护的规则、流程、模板与参考材料的体量。<b>全部库存 ≠ 单次加载 ≠ 累计计费。</b>token 为未使用 DeepSeek v4.1 tokenizer 校准的字符启发式估算。</div>
+<div class="card"><b>统计范围：</b>五个工具需要维护的规则、流程、模板与参考材料的体量。GSD 取 next 分支的 full / 非 compact 规范源码。<b>全部库存 ≠ 单次加载 ≠ 累计计费。</b>token 为未使用 DeepSeek v4.1 tokenizer 校准的字符启发式估算。</div>
 <h2 id="overview">概览：总量与功能占比</h2><figure><img alt="SDD 静态提示词库存总量与功能占比" src="data:image/png;base64,OVERVIEW"></figure>
 <h2 id="detail">详细：功能分布与来源范围</h2><figure><img alt="SDD 静态提示词分类详细统计" src="data:image/png;base64,DETAIL"></figure>
 <h2 id="inventory">可核查的文件 / 配置字段明细</h2><p>点击路径可查看固定提交的原文。排序与筛选只影响当前表格。</p>
 <div class="filters"><select id="tool"><option value="">全部工具</option></select><select id="category"><option value="">全部功能</option></select><input id="query" placeholder="搜索文件、模块、字段或材料类型"><select id="sort"><option value="tokens">按估算体量降序</option><option value="path">按工具和路径</option></select><button id="download">导出当前明细 CSV</button></div><p id="stats" class="muted"></p>
 <div class="scroll"><table><thead><tr><th>工具 / 模块</th><th>功能 / 类型</th><th>来源与字段</th><th>精确字符</th><th>估算 token</th><th>经验区间</th></tr></thead><tbody id="rows"></tbody></table></div>
-<h2 id="method">统计口径与来源</h2><div class="card"><p><b>估算假设：</b>ASCII 字符 A，非 ASCII 字符 U。中心 A/4 + U/1.5；下界 A/5 + U/2；上界 A/3 + U。是经验范围，不是置信区间或保证覆盖真实 tokenizer 的边界。原文超过 99.7% 为 ASCII 字符。</p><p><b>材料范围：</b>正文、步骤、按需参考、模板、配置指令字段。只计一套规范来源，排除平台重复副本、README、代码、项目产物、测试场景和未选装扩展。OpenSpec 为全工作流，默认 core 子集约 27.5k；BMAD 为 Method + Core Tools；Superpowers 包括工具维护技能，平台映射选 Codex。</p><p><b>分类：</b>按文件或字段的主要功能，非逐句编码。占比反映文本体量，不能等同于功能覆盖或质量。库内相同文本的不同规范文件仍计入总量，全文片段去重值单列。分类文件数可能交叉。</p><p><b>版本：</b>默认分支固定提交，含 Spec Kit dev、BMAD next；不声称均为稳定发布版。</p>SOURCES</div>
+<h2 id="method">统计口径与来源</h2><div class="card"><p><b>估算假设：</b>ASCII 字符 A，非 ASCII 字符 U。中心 A/4 + U/1.5；下界 A/5 + U/2；上界 A/3 + U。是经验范围，不是置信区间或保证覆盖真实 tokenizer 的边界。各工具指令原文超过 99.6% 为 ASCII 字符。</p><p><b>材料范围：</b>正文、步骤、按需参考、模板、配置指令字段。只计一套规范来源，排除平台重复副本、README、代码、项目产物、测试场景和未选装扩展。OpenSpec 为全工作流，默认 core 子集约 27.5k；BMAD 为 Method + Core Tools；Superpowers 包括工具维护技能，平台映射选 Codex；GSD 为 full / 非 compact 规范源码，生成 skills 副本和选装能力不重复计入。</p><p><b>分类：</b>按文件或字段的主要功能，非逐句编码。占比反映文本体量，不能等同于功能覆盖或质量。库内相同文本的不同规范文件仍计入总量，全文片段去重值单列。分类文件数可能交叉。</p><p><b>版本：</b>原四项默认分支固定提交，GSD 为指定 next 分支；含 Spec Kit dev、BMAD next，不声称均为稳定发布版。</p>SOURCES</div>
 <footer>两张图及 CSV / PDF / SVG 均在同一成果包中。报告 README.md 包含统计口径和来源说明；源文本与脚本已留存以便复核。</footer></main>
 <script>const data=DATA;const $=id=>document.getElementById(id);const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));for(const t of [...new Set(data.map(r=>r.tool))]){$('tool').append(new Option(t,t))}for(const c of [...new Set(data.map(r=>r.category))]){$('category').append(new Option(c,c))}let shown=[];function render(){const q=$('query').value.toLowerCase();shown=data.filter(r=>(!$('tool').value||r.tool===$('tool').value)&&(!$('category').value||r.category===$('category').value)&&(!q||[r.path,r.locator,r.module,r.kind].join(' ').toLowerCase().includes(q)));shown.sort($('sort').value==='tokens'?(a,b)=>b.estimated_tokens-a.estimated_tokens:(a,b)=>(a.tool+a.path+a.locator).localeCompare(b.tool+b.path+b.locator));$('rows').innerHTML=shown.map(r=>`<tr><td><b>${esc(r.tool)}</b><br>${esc(r.module)}</td><td><span class="badge">${esc(r.category)}</span><br>${esc(r.kind)}</td><td class="path"><a target="_blank" rel="noreferrer" href="${esc(r.source_url)}">${esc(r.path)}</a>${r.locator?'<br><code>'+esc(r.locator)+'</code>':''}${r.duplicate_of?'<br><small class="muted">有全文相同片段，原始库存保留</small>':''}</td><td class="num">${r.chars.toLocaleString()}</td><td class="num">≈${Math.round(r.estimated_tokens).toLocaleString()}</td><td class="num">${Math.round(r.low_tokens).toLocaleString()}–${Math.round(r.high_tokens).toLocaleString()}</td></tr>`).join('');const sum=shown.reduce((t,r)=>t+r.estimated_tokens,0),chars=shown.reduce((t,r)=>t+r.chars,0),files=new Set(shown.map(r=>r.tool+'|'+r.path)).size;$('stats').textContent=`${shown.length} 个文本片段 · ${files} 个来源文件 · ${chars.toLocaleString()} 字符 · 约 ${(sum/1000).toFixed(1)}k token（中心估算）`;}for(const id of ['tool','category','sort','query'])$(id).addEventListener(id==='query'?'input':'change',render);$('download').onclick=()=>{const keys=['tool','module','category','kind','path','locator','chars','estimated_tokens','low_tokens','high_tokens','source_url'];const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';const text='\uFEFF'+[keys.map(quote).join(','),...shown.map(r=>keys.map(k=>quote(r[k])).join(','))].join('\r\n');const u=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='sdd-filtered-inventory.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};render();</script></html>'''
 sources='<ul>'+''.join(f"<li>{html.escape(m['name'])} · {html.escape(m['declared_version'])} · <a href='{m['repository_url']}/tree/{m['commit']}'>{m['commit'][:12]}</a></li>" for m in DATA['sources'].values())+'</ul>'
@@ -201,4 +208,6 @@ with zipfile.ZipFile(OUT/'SDD静态提示词对比.zip','w',zipfile.ZIP_DEFLATED
     for mod in ['bmod-method','bmod-core-tools']:
         path='skills/'+mod+'/bmod.toml'
         z.write(ROOT/'sources'/'bmad'/path,'sources/bmad/'+path)
+    for name in ['inventory_scope.json','README.zh-CN.md','package.json']:
+        z.write(ROOT/'sources'/'gsd'/name,'sources/gsd/'+name)
 print('Rendered charts, offline HTML, report and ZIP.')

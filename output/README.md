@@ -1,10 +1,10 @@
 # SDD 工具静态提示词对比
 
-本轮只盘点工具自身的公开文本，不代入项目，不调用模型，不运行 tokenizer，不推算费用。主比较包括 OpenSpec、Spec Kit、BMAD Method、Superpowers；GSD 按原计划保留为后续补充样本。
+本轮只盘点工具自身的公开文本，不代入项目，不调用模型，不运行 tokenizer，不推算费用。比较包括 OpenSpec、Spec Kit、BMAD Method、Superpowers、GSD Core。
 
 ## 主要结果
 
-在固定的官方源码快照和所选分发范围内，公开指令库存的中心估算为：Spec Kit 约 **4 万**、OpenSpec 约 **4.9 万**、Superpowers 约 **8.2 万**、BMAD Method 约 **23.1 万 token**。这些是库存体量，**不等于每次任务额外输入、实际运行消耗或结果收益**。
+在固定的官方源码快照和所选分发范围内，公开指令库存的中心估算为：Spec Kit 约 **4 万**、OpenSpec 约 **4.9 万**、Superpowers 约 **8.2 万**、BMAD Method 约 **23.1 万**、GSD Core 约 **105.9 万 token**。这些是库存体量，**不等于每次任务额外输入、实际运行消耗或结果收益**。
 
 ## 总量
 
@@ -14,6 +14,7 @@
 | Spec Kit | 157,715 | 15 | 10 | ≈39.5k | 32–53k |
 | BMAD Method | 919,741 | 196 | 28 | ≈230.9k | 185–308k |
 | Superpowers | 326,354 | 48 | 15 | ≈81.9k | 65–109k |
+| GSD Core | 4,213,847 | 439 | 72 | ≈1058.9k | 847–1413k |
 
 ## 统计口径
 
@@ -22,13 +23,15 @@
 - Spec Kit：`templates/commands/*.md` 的 10 个核心命令和 `templates/*-template.md` 的 5 个模板；不含选装 extensions、presets、非提示词 workflow 编排配置、脚本以及其他 agent 输出副本。
 - BMAD：按官方 `bmod-method/bmod.toml` 和 `bmod-core-tools/bmod.toml` 声明的技能，加上这两个模块记录。计入其中 Markdown、CSV 方法库，以及 `customize.toml` 中承载指令的字段；去掉配置注释、路径、空占位、enum 和非指令元数据。`analyze.py` 内 `STRING_KEYS` 给出完整字段白名单。Toolsmith 是独立扩展，本轮排除。
 - Superpowers：15 个技能，正文及工作参考/模板；平台参考仅保留 Codex。一并计入 writing-skills 与 diagnosing-superpowers 这两个辅助技能；排除技能开发测试场景、历史创建日志和其他平台参考。工具维护约 **33.0k（40.3%）**；其余库存约 **48.9k**，这同样不是一次执行路径的加载估计。
+- GSD Core：用户指定的 `next` 分支，固定提交 `b747aca5b1dcff699c36d90c5b9fca0ec6354c1c`，仓库声明版本 `1.16.0`。选择 full 规范源码库存与默认非 compact 文本：72 个 `commands/gsd` 命令、35 个非 compact agent 正文、178 个工作流/片段、116 个参考材料、35 个模板、3 个上下文指令，共 439 来源文件。`skills/` 由命令生成，避免重复计入；compact 是替代版本，也不叠加。排除 capabilities 选装能力与平台转换包装、源码、README 元数据索引、Copilot 专用模板。原始中文 README 作为入口参考留存，不作为提示词计量。
+- GSD 的路径、主功能分类与原文 SHA256 见 `sources/gsd/inventory_scope.json`。工作流中的 shell 示例和静态约束仍属于模型可读指令，保留原文；库存包含按需材料、其他路径和替代模板，不意味着一次流程会加载 105.9 万 token，也不直接比较 minimal/core 配置。
 - 每个规范来源文件计一次；同一文件的多个配置字段分别计为片段，来源文件数去重。入口数只计可调用技能/命令正文，不把每个 Markdown 都叫作独立提示词；BMAD 的 2 个 bmod 模块记录不算入口。相同文本出现在不同规范文件时保留在原始库存；另给完整文本片段 SHA256 去重值，未做语义或段落级去重。
 - 配置字段与 schema 指令经 TOML/YAML 解析后按原字符串统计；格式化后的 runtime JSON 和 key 包装不在本次文本口径中。分段空白可能因运行时序列化变化。
 - 功能按文件/配置字段主要目的人工映射到七类，不逐句拆分复合功能；占比按中心估算 token 计算，不能解释为功能覆盖度或工程价值。来源文件可跨分类，分类文件数不应相加当作总文件数。
 
 ## DeepSeek v4.1 token 估算
 
-本轮没有取得并验证 DeepSeek v4.1 的专用 tokenizer；数字是以该模型为目标的通用字符量级估算，不能称为该模型的实际 token 统计。公开文本超过 99.7% 的字符为 ASCII，以英文 Markdown 为主。
+本轮没有取得并验证 DeepSeek v4.1 的专用 tokenizer；数字是以该模型为目标的通用字符量级估算，不能称为该模型的实际 token 统计。各工具公开指令文本超过 99.6% 的字符为 ASCII，以英文 Markdown 为主。
 
 设 A = ASCII 字符数，U = 非 ASCII 字符数：
 
@@ -40,7 +43,7 @@
 
 ## 版本与证据
 
-采集日期：2026-10-10。采用官方默认分支的固定提交；版本号只是仓库内声明，**不是声称所有样本都是稳定发布版**。Spec Kit 为 dev，BMAD 为 next。不同版本之间不可直接继承本图数字。
+原四个工具保留 2026-10-10 的官方默认分支固定提交；GSD 按用户指定的 next 分支于 2026-10-12 采集，未刷新其他工具。版本号只是仓库内声明，**不是声称所有样本都是稳定发布版**。Spec Kit 为 dev，BMAD 为 next，GSD 也取 next 分支。不同版本之间不可直接继承本图数字。
 
 | 工具 | 仓库声明版本 | 固定提交 | 提交日期 |
 |---|---|---|---|
@@ -48,6 +51,7 @@
 | Spec Kit | 1.1.4.dev0 | [0443760542e7](https://github.com/github/spec-kit/tree/0443760542e7e5269724744a2ac55c4bd386d095) | 2026-10-09 |
 | BMAD Method | 6.13.0-next | [bda3c5929f67](https://github.com/bmad-code-org/BMAD-METHOD/tree/bda3c5929f672019b90f39a3ea27259d35d00974) | 2026-10-06 |
 | Superpowers | 7.0.0 | [bb92a7774141](https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3) | 2026-10-09 |
+| GSD Core | 1.16.0 | [b747aca5b1dc](https://github.com/open-gsd/gsd-core/tree/b747aca5b1dcff699c36d90c5b9fca0ec6354c1c) | 2026-10-11 |
 
 ## 文件说明
 
@@ -55,7 +59,7 @@
 - `02_detail_v2.png / .svg / .pdf`：分类总量、占比、字符数、来源与范围。
 - `comparison.html`：无需服务器的离线浏览页，含两张图及可筛选文件/字段明细；来源链接指向固定提交。
 - `prompt_inventory.csv`：逐文件/字段的字符、字节、估算区间、分类、SHA256、路径与来源链接。
-- `tool_summary.csv / category_summary.csv`：四个工具的总量/分类汇总。
+- `tool_summary.csv / category_summary.csv`：五个工具的总量/分类汇总。
 - `excluded_files.csv`：未纳入的文本候选文件及范围排除说明。
 - `comparison.json / sources_manifest.json`：完整数据、估算假设与固定提交信息。
 - `analyze.py / render.py`：统计与出图脚本；它们只处理官方源码文本，不执行所比较工具的 workflow。
